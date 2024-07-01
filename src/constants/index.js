@@ -34,27 +34,27 @@ import {
   telegram,
   twitter,
   yourlogo,
-} from "../../public/assets";
+} from "../assets";
 
 export const navigation = [
   {
     id: "0",
-    title: "Features",
+    title: "Services",
     url: "#features",
   },
   {
     id: "1",
-    title: "Pricing",
+    title: "About",
     url: "#pricing",
   },
   {
     id: "2",
-    title: "How to use",
+    title: "Team",
     url: "#how-to-use",
   },
   {
     id: "3",
-    title: "Roadmap",
+    title: "Products",
     url: "#roadmap",
   },
   {
