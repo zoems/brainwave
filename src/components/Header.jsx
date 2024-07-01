@@ -1,5 +1,5 @@
 import { useLocation } from "react-router-dom";
-// import { disablePageScroll, enablePageScroll } from "scroll-lock";
+import { disablePageScroll, enablePageScroll } from "scroll-lock";
 
 import smartaqua from "../assets/logo/smartaqua.png";
 import { navigation } from "../constants";
@@ -15,17 +15,17 @@ const Header = () => {
   const toggleNavigation = () => {
     if (openNavigation) {
       setOpenNavigation(false);
-      // enablePageScroll();
+      enablePageScroll();
     } else {
       setOpenNavigation(true);
-      // disablePageScroll();
+      disablePageScroll();
     }
   };
 
   const handleClick = () => {
     if (!openNavigation) return;
 
-    // enablePageScroll();
+    enablePageScroll();
     setOpenNavigation(false);
   };
 
