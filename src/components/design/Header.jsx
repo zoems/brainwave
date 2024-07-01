@@ -1,4 +1,5 @@
 import { background } from "../../assets";
+import FishlineSvg from "../../assets/svg/fishline";
 
 export const Rings = () => {
   return (
@@ -18,12 +19,21 @@ export const SideLines = () => {
   );
 };
 
-export const BackgroundCircles = () => {
+export const BackgroundFish = () => {
   return (
     <>
-      <div className="absolute top-[4.4rem] left-16 w-3 h-3 bg-gradient-to-b from-[#DD734F] to-[#1A1A32] rounded-full"></div>
-      <div className="absolute top-[12.6rem] right-16 w-3 h-3 bg-gradient-to-b from-[#B9AEDF] to-[#1A1A32] rounded-full"></div>
-      <div className="absolute top-[26.8rem] left-12 w-6 h-6 bg-gradient-to-b from-[#88E5BE] to-[#1A1A32] rounded-full"></div>
+      <FishlineSvg
+        className="absolute top-[4.4rem] left-16 w-3 h-3"
+        colorWay="colorway1"
+      />
+      <FishlineSvg
+        className="absolute top-[12.6rem] right-16 w-3 h-3"
+        colorWay="colorway2"
+      />
+      <FishlineSvg
+        className="absolute top-[26.8rem] left-12 w-6 h-6"
+        colorWay="colorway3"
+      />
     </>
   );
 };
@@ -45,7 +55,7 @@ export const HamburgerMenu = () => {
 
       <SideLines />
 
-      <BackgroundCircles />
+      <BackgroundFish />
     </div>
   );
 };
