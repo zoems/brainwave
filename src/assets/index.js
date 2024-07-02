@@ -77,8 +77,11 @@ import twitter from "./socials/twitter.svg";
 //------------
 import favicon from "./logo/fish-logo.png";
 
+import farms3 from "./hero/farms3.jpeg";
+
 export {
   favicon,
+  farms3,
   //---------
   brainwave,
   check,
