@@ -75,10 +75,86 @@ import instagram from "./socials/instagram.svg";
 import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
 //------------
+import aquatec from "./partners/ace-aquatec.png";
+import aquatiq from "./partners/aquatiq-logo.png";
+import calkins from "./partners/calkins-burke.jpg";
+import eachmile from "./partners/eachmile.jpg";
+import mtcook from "./partners/mtcook-alpine.jpg";
+import naqua from "./partners/naqua.jpeg";
+import nutreco from "./partners/nutreco.jpg";
+import openbluecobia from "./partners/open-blue-cobia.png";
+import pacific from "./partners/pacific-seafood-logo.jpg";
+import paspaley from "./partners/paspaley.png";
+import solvay from "./partners/solvay.png";
+import veramaris from "./partners/veramaris.jpeg";
+import puresalmon from "./partners/pure-salmon.png";
+import barramundiasia from "./partners/barramundi-asia.png";
+import ssc from "./partners/ssc.png";
+import vda from "./partners/vda.jpeg";
+import ssf from "./partners/ssf.jpeg";
+import heats from "./partners/heats.png";
+import bom from "./partners/bom.jpg";
+import tassal from "./partners/tassal.png";
+import huon from "./partners/huon.jpeg";
+import marineharvest from "./partners/marineharvest.jpeg";
+import cleanseas from "./partners/cleanseas.png";
+import skretting from "./partners/skretting.png";
+import youngs from "./partners/youngs.jpg";
+import santos from "./partners/santos.jpg";
+import pandp from "./partners/pandp.jpeg";
+import mbc from "./partners/mbc.png";
+import cbb from "./partners/cbb.jpg";
+import sunwell from "./partners/sunwell.gif";
+import pep from "./partners/pep.jpg";
+import nzking from "./partners/nzking.jpg";
+import tsfc from "./partners/tsfc.gif";
+import eawp from "./partners/eawp.gif";
+import archer from "./partners/archer.jpg";
+
 import favicon from "./logo/fish-logo.png";
 
+import farms3 from "./hero/farms3.jpeg";
+
 export {
+  // ---------- partners
+  puresalmon,
+  barramundiasia,
+  ssc,
+  vda,
+  ssf,
+  heats,
+  bom,
+  tassal,
+  huon,
+  marineharvest,
+  cleanseas,
+  skretting,
+  youngs,
+  santos,
+  pandp,
+  mbc,
+  cbb,
+  sunwell,
+  pep,
+  nzking,
+  tsfc,
+  eawp,
+  archer,
+  aquatec,
+  aquatiq,
+  calkins,
+  eachmile,
+  mtcook,
+  naqua,
+  nutreco,
+  openbluecobia,
+  pacific,
+  paspaley,
+  solvay,
+  veramaris,
+  //---------
   favicon,
+  farms3,
   //---------
   brainwave,
   check,

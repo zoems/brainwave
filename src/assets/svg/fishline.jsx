@@ -1,5 +1,3 @@
-import React from "react";
-
 const FishlineSvg = ({ className, colorWay }) => {
   let startColor, endColor, gradientId;
 
@@ -23,6 +21,22 @@ const FishlineSvg = ({ className, colorWay }) => {
       startColor = "#ffffff";
       endColor = "#ffffff";
       gradientId = "gradientDefault";
+      break;
+    case "green":
+      startColor = "#88E5BE";
+      endColor = "#88E5BE";
+      gradientId = "green";
+      break;
+    case "orange":
+      startColor = "#ff7e57";
+      endColor = "#ff7e57";
+      gradientId = "orange";
+      break;
+    case "purple":
+      startColor = "#B9AEDF";
+      endColor = "#B9AEDF";
+      gradientId = "purple";
+      break;
   }
 
   return (
