@@ -10,7 +10,7 @@ const CompanyLogos = ({ className }) => {
   return (
     <div className={`${className} marquee`}>
       <h2 className="mb-6 body-1 tagline text-xl text-center text-n-1/50">
-        Trusted By
+        Trusted By Industry Leaders
       </h2>
       <div className="marquee-content 1">
         {[...rowlogos1, ...rowlogos1].map(
