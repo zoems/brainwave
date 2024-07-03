@@ -160,3 +160,55 @@ button:focus-visible {
 .-rotate-360 {
   @apply rotate-[-360deg];
 }
+
+
+
+/* partner logos */
+
+.marquee {
+  overflow: hidden;
+  position: relative;
+}
+
+.marquee-content {
+  display: flex;
+  width: calc(203%);
+  /* Adjust based on actual content width */
+  animation: marquee 60s linear infinite;
+}
+
+.marquee-pos-content {
+  display: flex;
+  width: calc(203%);
+  /* Adjust based on actual content width */
+  animation: marqueepos 60s linear infinite;
+}
+
+.marquee-logo {
+  flex: 0 0 auto;
+  width: auto;
+  padding: 1rem 1rem;
+}
+
+
+@keyframes marqueepos {
+  from {
+    transform: translateX(-100%);
+  }
+
+  to {
+    transform: translateX(0);
+    /* Move the logos */
+  }
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-100%);
+    /* Move the logos */
+  }
+}
