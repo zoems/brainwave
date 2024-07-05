@@ -6,6 +6,14 @@ import { GradientLight } from "./design/Benefits";
 import ClipPath from "../assets/svg/ClipPath";
 
 const Benefits = () => {
+  const onClick = (url) => {
+    if (!url) {
+      return;
+    }
+    console.log("clicked");
+    window.location.href = url;
+  };
+
   return (
     <Section id="features">
       <div className="container relative z-2">
@@ -22,6 +30,8 @@ const Benefits = () => {
                 backgroundImage: `url(${item.backgroundUrl})`,
               }}
               key={item.id}
+              href={item.url}
+              onClick={() => onClick(item.url)}
             >
               <div className="relative z-2 flex flex-col min-h-[22rem] p-[2.4rem] pointer-events-none">
                 <h5 className="h5 mb-5">{item.title}</h5>
@@ -33,12 +43,9 @@ const Benefits = () => {
                     height={48}
                     alt={item.title}
                   />
-                  <a
-                    className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider"
-                    href={item.url}
-                  >
+                  <p className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider">
                     Explore more
-                  </a>
+                  </p>
                   <Arrow />
                 </div>
               </div>
@@ -49,7 +56,7 @@ const Benefits = () => {
                 className="absolute inset-0.5"
                 style={{ clipPath: "url(#benefits)" }}
               >
-                <div className="absolute inset-0 opacity-0 transition-opacity hover:opacity-10">
+                <div className="absolute inset-0 opacity-0 transition-opacity hover:opacity-30">
                   {item.imageUrl && (
                     <img
                       src={item.imageUrl}
