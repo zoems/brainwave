@@ -172,19 +172,11 @@ button:focus-visible {
 
 .marquee-content {
   display: flex;
-  /* width: calc(204%); */
-  /*290 md*/
-  /*541 md*/
-  /* Adjust based on actual content width */
   animation: marquee 60s linear infinite;
 }
 
 .marquee-pos-content {
   display: flex;
-  /* width: calc(222%); */
-  /*290 md*/
-  /*541 md*/
-  /* Adjust based on actual content width */
   animation: marqueepos 60s linear infinite;
 }
 
