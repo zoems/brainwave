@@ -1,7 +1,7 @@
 import { curve, farms3, heroBackground } from "../assets";
 import Button from "./Button";
 import Section from "./Section";
-import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
+import { BackgroundCircles, BottomLine } from "./design/Hero";
 import { ScrollParallax } from "react-just-parallax";
 import { useRef } from "react";
 // import Generating from "./Generating";
@@ -93,7 +93,7 @@ const Hero = () => {
           <BackgroundCircles />
         </div>
 
-        <CompanyLogos className="relative z-10 max-w-[23rem] mx-auto md:max-w-[43rem] lg:max-w-[56rem] mt-20 block" />
+        <CompanyLogos />
       </div>
 
       <BottomLine />
