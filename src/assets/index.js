@@ -114,6 +114,7 @@ import archer from "./partners/archer.jpg";
 import favicon from "./logo/fish-logo.png";
 
 import farms3 from "./hero/farms3.jpeg";
+import checkingSalmon from "./services/checking-salmon.jpeg";
 
 export {
   // ---------- partners
@@ -155,6 +156,7 @@ export {
   //---------
   favicon,
   farms3,
+  checkingSalmon,
   //---------
   brainwave,
   check,

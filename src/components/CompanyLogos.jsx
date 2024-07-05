@@ -8,7 +8,9 @@ const CompanyLogos = ({ className }) => {
   const rowlogos3 = companyLogos.slice(2 * logosperrow);
 
   return (
-    <div className={`${className} marquee `}>
+    <div
+      className={`${className} relative z-10 max-w-[23rem] mx-auto md:max-w-[43rem] lg:max-w-[56rem] mt-20 block marquee `}
+    >
       <h2 className="mb-6 body-1 tagline text-xl text-center text-n-1/50 ">
         Trusted By Industry Leaders
       </h2>
