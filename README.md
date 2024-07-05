@@ -1,9 +1,4 @@
 ## <a name="tech-stack">Tech Stack</a>
-
-- Vite
-- React.js
-- Tailwind CSS
-
 <div align="center">
   <div>
     <img src="https://img.shields.io/badge/-Vite-black?style=for-the-badge&logoColor=white&logo=vite&color=646CFF" alt="vite" />
@@ -30,7 +25,7 @@ and many more, including code architecture and reusability
 
 Follow these steps to see the project locally on your machine.
 
-<a href="https://github.com/adrianhajdin/brainwave/fork">Fork this Repo</>
+<a href="https://github.com/adrianhajdin/brainwave/fork">Fork this Repo
 
 **Prerequisites**
 
