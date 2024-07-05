@@ -79,10 +79,8 @@ const Hero = () => {
                 </ScrollParallax>
               </div>
             </div>
-
-            <Gradient />
           </div>
-          <div className="absolute backgroundimg -top-[54%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[104%]">
+          <div className="absolute -top-[54%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[104%]">
             <img
               src={heroBackground}
               className="w-full "
@@ -95,7 +93,7 @@ const Hero = () => {
           <BackgroundCircles />
         </div>
 
-        <CompanyLogos className="relative z-10 mt-20 block" />
+        <CompanyLogos className="relative z-10 max-w-[23rem] mx-auto md:max-w-[43rem] lg:max-w-[56rem] mt-20 block" />
       </div>
 
       <BottomLine />
