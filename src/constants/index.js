@@ -322,11 +322,11 @@ export const benefits = [
   },
   {
     id: "1",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
-    backgroundUrl: "assets/benefits/card-2.svg",
+    title: "Total Site Project Management",
+    text: "Aquaculture Development Project Management, Veterinary Services, Biosecurity and Health Management ",
+    backgroundUrl: benefitCard2,
     iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
+    imageUrl: checkingSalmon,
     light: true,
   },
   {
