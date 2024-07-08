@@ -1,4 +1,5 @@
 import { brainwaveSymbol, check, globelogo } from "../assets";
+import ButtonGradient from "../assets/svg/ButtonGradient";
 import { collabApps, collabContent, collabText } from "../constants";
 import Button from "./Button";
 import Section from "./Section";
@@ -7,6 +8,7 @@ import { LeftCurve, RightCurve } from "./design/Collaboration";
 const Collaboration = () => {
   return (
     <Section crosses>
+      <ButtonGradient />
       <div className="container lg:flex">
         <div className="">
           <h2 className="h2 mb-4 md:mb-8">
@@ -31,12 +33,12 @@ const Collaboration = () => {
           <Button>Book a Call With Us</Button>
         </div>
 
-        <div className="lg:ml-auto xl:w-[38rem] mt-4">
+        <div className="lg:ml-auto xl:w-[38rem] mt-10">
           <p className="body-2 mb-8 text-n-4 md:mb-16 lg:mb-32 lg:w-[22rem] lg:mx-auto">
             {collabText}
           </p>
 
-          <div className="relative left-1/2 flex w-[37rem] aspect-square border border-n-6 rounded-full -translate-x-1/2 scale:75 md:scale-100">
+          <div className="relative left-1/2 flex w-[37rem] aspect-square border border-n-6 rounded-full -translate-x-1/2 scale-[50%] md:scale-100">
             <div className="flex w-80 p-[0.2rem] aspect-square m-auto bg-conic-gradient rounded-full">
               <div className="w-[22rem] aspect-square m-auto rounded-full">
                 <div className="flex items-center justify-center w-full h-full bg-n-8 rounded-full">
