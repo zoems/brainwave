@@ -12,7 +12,7 @@ export default {
     extend: {
       colors: {
         color: {
-          1: "#AC6AFF",
+          1: "#5BBDE2",
           2: "#FFC876",
           3: "#FF776F",
           4: "#7ADB78",
@@ -73,7 +73,7 @@ export default {
       backgroundImage: {
         "radial-gradient": "radial-gradient(var(--tw-gradient-stops))",
         "conic-gradient":
-          "conic-gradient(from 225deg, #FFC876, #79FFF7, #9F53FF, #FF98E2, #FFC876)",
+          "conic-gradient(from 225deg, #FF5722, #79FFF7, #03A9F4, #022550, #FF5722)",
         "benefit-card-1": "url(assets/benefits/card-1.svg)",
         "benefit-card-2": "url(assets/benefits/card-2.svg)",
         "benefit-card-3": "url(assets/benefits/card-3.svg)",
