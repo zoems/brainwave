@@ -112,6 +112,7 @@ import eawp from "./partners/eawp.gif";
 import archer from "./partners/archer.jpg";
 
 import favicon from "./logo/fish-logo.png";
+import globelogo from "./collaboration/globelogo.png";
 
 import farms3 from "./hero/farms3.jpeg";
 import checkingSalmon from "./services/checking-salmon.jpeg";
@@ -157,6 +158,7 @@ export {
   favicon,
   farms3,
   checkingSalmon,
+  globelogo,
   //---------
   brainwave,
   check,

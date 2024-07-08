@@ -205,21 +205,38 @@ export const roadmap = [
 ];
 
 export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+  "SmartAqua was first established in 1996 by Alastair Smart to offer seafood consulting services chiefly to the fast growing aquaculture industry. After some years working in many countries he saw a number of colleagues offering the same service and the concept of a Team offering a one-stop-shop for seafood advice not limited by scope or geography was formed and the group expanded globally.";
 
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
-    text: collabText,
+    title: "Total Site Project Management",
+    text: "Aquaculture Development Project Management, Veterinary Services, Biosecurity and Health Management ",
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "Landbased Aquaculture (RAS) Facilities",
+    text: "Design, Construct and Management",
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "Production Planning",
+    text: "External Auditing & Site Assessment Services, Sustainable Seafood Sourcing",
+  },
+  {
+    id: "3",
+    title: "Process Plant Design",
+    text: "Seafood Processing Plant Design, Seafood Supply Chain DLT Traceability Solutions",
+  },
+  {
+    id: "4",
+    title: "Construction",
+    text: "Seafood Business Realty Facilitation, Skilled Talent Sourcing, Training Seminars",
+  },
+  {
+    id: "5",
+    title: "Mergers and Acquisitions",
+    text: "Due Diligence for PE firms, VC's, Incubators and Accelerators, Board Risk Advisory and Governance Services",
   },
 ];
 
@@ -321,8 +338,8 @@ export const pricing = [
 export const benefits = [
   {
     id: "0",
-    title: "Landbased Aquaculture (RAS) Facilities",
-    text: "Design, Construct and Management",
+    title: "xxx",
+    text: "xxx",
     backgroundUrl: benefitCard1,
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
@@ -331,8 +348,8 @@ export const benefits = [
   },
   {
     id: "1",
-    title: "Total Site Project Management",
-    text: "Aquaculture Development Project Management, Veterinary Services, Biosecurity and Health Management ",
+    title: "xxxTotal Site Project Managementxxx",
+    text: "xxxAquaculture Development Project Management, Veterinary Services, Biosecurity and Health Managementxxx ",
     backgroundUrl: benefitCard2,
     iconUrl: benefitIcon2,
     imageUrl: checkingSalmon,
@@ -340,16 +357,16 @@ export const benefits = [
   },
   {
     id: "2",
-    title: "Production Planning",
-    text: "External Auditing & Site Assessment Services, Sustainable Seafood Sourcing",
+    title: "xxxx",
+    text: "xxxx",
     backgroundUrl: benefitCard3,
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
   },
   {
     id: "3",
-    title: "Process Plant Design",
-    text: "Seafood Processing Plant Design, Seafood Supply Chain DLT Traceability Solutions",
+    title: "xxxx",
+    text: "xxxxx",
     backgroundUrl: benefitCard4,
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
@@ -357,16 +374,16 @@ export const benefits = [
   },
   {
     id: "4",
-    title: "Construction",
-    text: "Seafood Business Realty Facilitation, Skilled Talent Sourcing, Training Seminars",
+    title: "xxx",
+    text: "xxx",
     backgroundUrl: benefitCard5,
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "5",
-    title: "Mergers and Acquisitions",
-    text: "Due Diligence for PE firms, VC's, Incubators and Accelerators, Board Risk Advisory and Governance Services",
+    title: "xxxxxx",
+    text: "xxxxx",
     backgroundUrl: benefitCard6,
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
