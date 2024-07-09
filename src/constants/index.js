@@ -155,9 +155,10 @@ export const companyLogos = [
 ];
 
 export const brainwaveServices = [
-  "Photo generating",
-  "Photo enhance",
-  "Seamless Integration",
+  "Fast, uniform cooling",
+  "Improve operation efficiency",
+  "Higher filleting yield",
+  "Extended shelf life",
 ];
 
 export const brainwaveServicesIcons = [
