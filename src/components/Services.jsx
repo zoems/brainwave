@@ -74,8 +74,8 @@ const Services = () => {
                   your seafood at every stage—from harvest to the consumer.
                 </p>
 
-                <ul className="flex items-center justify-between">
-                  {/* {brainwaveServicesIcons.map((item, index) => (
+                {/* <ul className="flex items-center justify-between">
+                  {brainwaveServicesIcons.map((item, index) => (
                     <li
                       key={index}
                       className={`rounded-2xl flex items-center justify-center ${
@@ -94,11 +94,11 @@ const Services = () => {
                         <img src={item} width={24} height={24} alt={item} />
                       </div>
                     </li>
-                  ))} */}
-                </ul>
+                  ))}
+                </ul> */}
               </div>
 
-              <div className="relative h-[20rem] bg-n-8 rounded-xl overflow-hidden md:h-[25rem]">
+              <div className="relative h-[20rem] bg-n-8 rounded-xl overflow-hidden md:h-[35rem]">
                 <img
                   src={service3}
                   className="w-full h-full object-cover"
@@ -113,44 +113,34 @@ const Services = () => {
             </div>
 
             <div
-              id="box1"
-              className="relative min-h-[39rem] border border-n-1/10 rounded-3xl overflow-hidden"
+              id="box2"
+              className="relative min-h-[60rem] border border-n-1/10 rounded-3xl overflow-hidden"
             >
-              {/* <div className="absolute inset-0">
-                <img
-                  src={service3}
-                  className="h-full w-full object-cover"
-                  width={630}
-                  height={750}
-                  alt=""
-                />
-              </div> */}
-
               <div className="absolute inset-0 flex flex-col justify-end p-4 lg:p-8">
-                <h4 className="h4 mb-4">DeepChill slurry systems </h4>
+                <h4 className="h4 mb-4"> Why is this important technology?</h4>
                 <p className="body-2 mb-2 text-n-3">
-                  Why is this important technology? Temperature control for
-                  Seafood is a fundamental. Post-mortem changes are inevitable
-                  and fish don’t improve. This is a sad fact and a general
-                  truth, although exceptions are admitted in the first few days
-                  post-catch as the umami may increase with IMP formation and
-                  rigor changes affect textural properties. However, after this
-                  short period it is downhill all the way as spoilage bacteria
-                  begin to take over, autolytic changes occur and oxidation is
-                  initiated – phenomena which are all temperature dependent. It
-                  is thus obvious that both time and temperature affect the rate
-                  of change, and that it is the time-temperature integral that
-                  is the fundamental, prime measure of the amount or degree of
-                  change. This is critically important in that minor changes in
-                  chill temperature become very important. The biological,
-                  microbiological and biochemical changes and the gross sum of
-                  their effects obey the same, or similar enough, kinetics to be
-                  estimated with change in temperature. The consequence of this
-                  is that a slight change in temperature from 0C to just 4C
-                  doubles the rate of degradation, and hence doubles the amount
-                  of change that has occurred. If there were such hypothetical
-                  measures as ‘quality units’ or ‘freshness units’ then twice as
-                  many units would be decomposed at 4C as at 0C.
+                  Temperature control for Seafood is a fundamental. Post-mortem
+                  changes are inevitable and fish don’t improve. This is a sad
+                  fact and a general truth, although exceptions are admitted in
+                  the first few days post-catch as the umami may increase with
+                  IMP formation and rigor changes affect textural properties.
+                  However, after this short period it is downhill all the way as
+                  spoilage bacteria begin to take over, autolytic changes occur
+                  and oxidation is initiated – phenomena which are all
+                  temperature dependent. It is thus obvious that both time and
+                  temperature affect the rate of change, and that it is the
+                  time-temperature integral that is the fundamental, prime
+                  measure of the amount or degree of change. This is critically
+                  important in that minor changes in chill temperature become
+                  very important. The biological, microbiological and
+                  biochemical changes and the gross sum of their effects obey
+                  the same, or similar enough, kinetics to be estimated with
+                  change in temperature. The consequence of this is that a
+                  slight change in temperature from 0C to just 4C doubles the
+                  rate of degradation, and hence doubles the amount of change
+                  that has occurred. If there were such hypothetical measures as
+                  ‘quality units’ or ‘freshness units’ then twice as many units
+                  would be decomposed at 4C as at 0C.
                 </p>
                 <div className="flex items-center mt-auto">
                   <p className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider">
