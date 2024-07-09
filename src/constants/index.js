@@ -1,4 +1,10 @@
 import {
+  alastairdouglas,
+  christinehuynh,
+  glenshiell,
+  josephtuma,
+  paulasylvia,
+  sambowman,
   benefitIcon1,
   benefitIcon2,
   benefitIcon3,
@@ -333,6 +339,52 @@ export const pricing = [
       "Personalized recommendations based on your preferences",
       "Ability to explore the app and its features without any cost",
     ],
+  },
+];
+
+export const team = [
+  // {
+  //   id: "0",
+  //   name: "Alastair Smart",
+  //   text: "xxx",
+  //   imageUrl: benefitImage2,
+
+  // },
+  {
+    id: "1",
+    name: "Alastair Douglas",
+    imageUrl: alastairdouglas,
+    lnlink: "https://www.linkedin.com/in/alistair-douglas-a5b99a38/",
+  },
+  {
+    id: "2",
+    name: "Christine Huynh",
+    imageUrl: christinehuynh,
+    lnlink: "https://www.linkedin.com/in/christine-huynh-2282aa53/",
+  },
+  {
+    id: "3",
+    name: "Glen Shiell",
+    imageUrl: glenshiell,
+    lnlink: "https://www.linkedin.com/in/gshiell/",
+  },
+  {
+    id: "4",
+    name: "Joseph Tuma",
+    imageUrl: josephtuma,
+    lnlink: "https://www.linkedin.com/in/joseph-tuma-3b56451a/",
+  },
+  {
+    id: "5",
+    name: "Paula Sylvia",
+    imageUrl: paulasylvia,
+    lnlink: "https://www.linkedin.com/in/paula-sylvia-91002364/",
+  },
+  {
+    id: "6",
+    name: "Sam Bowman",
+    imageUrl: sambowman,
+    lnlink: "https://www.linkedin.com/in/sam-bowman-marketing27/",
   },
 ];
 

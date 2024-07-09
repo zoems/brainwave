@@ -117,7 +117,22 @@ import globelogo from "./collaboration/globelogo.png";
 import farms3 from "./hero/farms3.jpeg";
 import checkingSalmon from "./services/checking-salmon.jpeg";
 
+import alastairdouglas from "./team/alastair-douglas.jpeg";
+import alastairdouglas from "./team/alastair-douglas.jpeg";
+import christinehuynh from "./team/christine-huynh.jpeg";
+import glenshiell from "./team/glen-shiell.jpeg";
+import josephtuma from "./team/joseph-tuma.jpeg";
+import paulasylvia from "./team/paula-sylvia.jpeg";
+import sambowman from "./team/sam-bowman.jpeg";
+
 export {
+  //-------- team
+  alastairdouglas,
+  christinehuynh,
+  glenshiell,
+  josephtuma,
+  paulasylvia,
+  sambowman,
   // ---------- partners
   puresalmon,
   barramundiasia,
