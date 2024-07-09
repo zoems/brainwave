@@ -15,11 +15,15 @@ export const Gradient = () => {
   );
 };
 
-export const PhotChatMessage = () => {
+export const PhotoChatMessage = () => {
   return (
-    <div className="absolute top-8 right-8 max-w-[17.5rem] py-6 px-8 bg-black rounded-t-xl rounded-bl-xl font-code text-base lg:top-16 lg:right-[8.75rem] lg:max-w-[17.5rem]">
-      Hey Brainwave, enhance this photo
-      <ChatBubbleWing className="absolute left-full bottom-0" />
+    <div className="hidden md:block absolute top-8 left-[3.125rem] max-w-[17.5rem] py-6 px-8 bg-n-6 rounded-t-xl rounded-br-xl font-code text-base lg:top-16 lg:right-[8.75rem] lg:max-w-[17.5rem]">
+      Shelf-life can be doubled by ensuring the temperature is maintained at 0C
+      not 4C. This very important fact is regularly ignored.
+      <ChatBubbleWing
+        className="absolute right-full bottom-0 -scale-x-100"
+        pathClassName="fill-n-6"
+      />
     </div>
   );
 };
