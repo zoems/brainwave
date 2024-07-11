@@ -1,4 +1,5 @@
 import {
+  linkedin,
   alastairdouglas,
   christinehuynh,
   glenshiell,
@@ -13,7 +14,6 @@ import {
   chromecast,
   disc02,
   discord,
-  discordBlack,
   facebook,
   figma,
   file02,
@@ -446,9 +446,9 @@ export const benefits = [
 export const socials = [
   {
     id: "0",
-    title: "Discord",
-    iconUrl: discordBlack,
-    url: "#",
+    title: "Linked In",
+    iconUrl: linkedin,
+    url: "https://www.linkedin.com/company/smartaqua/",
   },
   {
     id: "1",
@@ -458,20 +458,19 @@ export const socials = [
   },
   {
     id: "2",
-    title: "Instagram",
-    iconUrl: instagram,
+    title: "Contact",
     url: "#",
   },
-  {
-    id: "3",
-    title: "Telegram",
-    iconUrl: telegram,
-    url: "#",
-  },
-  {
-    id: "4",
-    title: "Facebook",
-    iconUrl: facebook,
-    url: "#",
-  },
+  // {
+  //   id: "3",
+  //   title: "Telegram",
+  //   iconUrl: telegram,
+  //   url: "#",
+  // },
+  // {
+  //   id: "4",
+  //   title: "Facebook",
+  //   iconUrl: facebook,
+  //   url: "#",
+  // },
 ];

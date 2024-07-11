@@ -1,17 +1,13 @@
 import Section from "./Section";
 import Heading from "./Heading";
-import { service1, service2, service3, check } from "../assets";
+import { service1, service3, check } from "../assets";
 import { brainwaveServices, brainwaveServicesIcons } from "../constants";
 import {
   Gradient,
   PhotoChatMessage,
   // Gradient,
-  // VideoBar,
-  // VideoChatMessage,
 } from "./design/Services";
 import Arrow from "../assets/svg/Arrow";
-
-// import Generating from "./Generating";
 
 const Services = () => {
   return (
