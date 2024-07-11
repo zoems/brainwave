@@ -1,9 +1,9 @@
-import Benefits from "./components/Benefits";
-import Collaboration from "./components/Collaboration";
+import Benefits from "./components/Team";
+import Collaboration from "./components/Services";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import ButtonGradient from "./assets/svg/ButtonGradient";
-import Services from "./components/Services";
+import Services from "./components/Products";
 
 const App = () => {
   return (
