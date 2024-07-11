@@ -1,9 +1,8 @@
-import { benefits } from "../constants";
+import { team } from "../constants";
 import Heading from "./Heading";
 import Section from "./Section";
 import Arrow from "../assets/svg/Arrow";
 import { GradientLight } from "./design/Benefits";
-import ClipPath from "../assets/svg/ClipPath";
 
 const Benefits = () => {
   const onClick = (url) => {
@@ -15,37 +14,32 @@ const Benefits = () => {
   };
 
   return (
-    <Section id="features">
+    <Section id="team">
       <div className="container relative z-2">
         <Heading
-          // className="md:max-w-md lg:max-w-2xl"
-          title="SmartAqua offers the following benefits:"
+          className="max-w-[80rem]"
+          title="Our core team of professionals are respected global leaders in their respective fields providing turnkey solutions including advice and product supply."
+          text=""
         />
 
         <div className="flex flex-wrap gap-10 mb-10">
-          {benefits.map((item) => (
+          {team.map((item) => (
             <div
-              className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem]"
-              style={{
-                backgroundImage: `url(${item.backgroundUrl})`,
-              }}
+              className="block relative p-0.5 bg-no-repeat md:max-w-[24rem] group"
               key={item.id}
-              href={item.url}
-              onClick={() => onClick(item.url)}
             >
-              <div className="relative z-2 flex flex-col min-h-[22rem] p-[2.4rem] pointer-events-none">
-                <h5 className="h5 mb-5">{item.title}</h5>
-                <p className="body-2 mb-6 text-n-3">{item.text}</p>
-                <div className="flex items-center mt-auto">
-                  <img
-                    src={item.iconUrl}
-                    width={48}
-                    height={48}
-                    alt={item.title}
-                  />
-                  <p className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider">
+              <div className="relative z-2 flex flex-col justify-end min-h-[16rem] min-w-[15rem] p-[1.4rem] pointer-events-none opacity-1 transition-opacity group-hover:opacity-100">
+                <div>
+                  <h5 className=" text-sm md:text-xl">{item.name}</h5>
+                </div>
+                <div
+                  className="hidden pointer-events-auto items-center mt-5 transition-opacity group-hover:flex"
+                  href={item.lnlink}
+                  onClick={() => onClick(item.lnlink)}
+                >
+                  <button className=" group ml-auto font-code text-xs font-bold text-n-1 hover:text-color-1 uppercase tracking-wider">
                     Explore more
-                  </p>
+                  </button>
                   <Arrow />
                 </div>
               </div>
@@ -53,15 +47,15 @@ const Benefits = () => {
               {item.light && <GradientLight />}
 
               <div
-                className="absolute inset-0.5"
-                style={{ clipPath: "url(#benefits)" }}
+                className="absolute inset-0.5 transition-opacity group-hover:opacity-30"
+                // style={{ clipPath: "url(#benefits)" }}
               >
-                <div className="absolute inset-0 opacity-0 transition-opacity hover:opacity-30">
+                <div className="absolute object-cover inset-0 ">
                   {item.imageUrl && (
                     <img
                       src={item.imageUrl}
-                      width={380}
-                      height={362}
+                      width={250}
+                      height={200}
                       alt={item.title}
                       className="w-full h-full object-cover"
                     />
@@ -69,7 +63,7 @@ const Benefits = () => {
                 </div>
               </div>
 
-              <ClipPath />
+              {/* <ClipPath /> */}
             </div>
           ))}
         </div>
