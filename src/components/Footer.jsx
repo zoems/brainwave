@@ -15,7 +15,7 @@ const Footer = () => {
               key={item.id}
               href={item.url}
               target="_blank"
-              className="flex items-center justify-center w-30 h-30 bg-n-7 rounded-full transition-colors hover:bg-n-6"
+              className="flex items-center justify-center w-30 h-30 px-6 bg-n-7 rounded-full transition-colors hover:bg-n-6"
             >
               {" "}
               {item.iconUrl && (
@@ -26,7 +26,7 @@ const Footer = () => {
                   alt={item.title}
                 />
               )}
-              <p className="p-2 text-sm text-n-4 ">{item.title}</p>
+              <p className="p-2 text-xs text-n-4 ">{item.title}</p>
             </a>
           ))}
         </ul>
