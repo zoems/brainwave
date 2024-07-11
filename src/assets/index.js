@@ -124,7 +124,10 @@ import josephtuma from "./team/joseph-tuma.jpeg";
 import paulasylvia from "./team/paula-sylvia.jpeg";
 import sambowman from "./team/sam-bowman.jpeg";
 
+import linkedin from "./socials/linkedin.svg";
+
 export {
+  linkedin,
   //-------- team
   alastairdouglas,
   christinehuynh,
