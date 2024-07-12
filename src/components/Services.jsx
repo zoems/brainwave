@@ -4,9 +4,9 @@ import Button from "./Button";
 import Section from "./Section";
 import { LeftCurve, RightCurve } from "./design/Collaboration";
 
-const Collaboration = () => {
+const Services = () => {
   return (
-    <Section crosses>
+    <Section id="services" crosses>
       <div className="container lg:flex">
         <div className="">
           <h2 className="h2 mb-4 md:mb-8">
@@ -84,4 +84,4 @@ const Collaboration = () => {
   );
 };
 
-export default Collaboration;
+export default Services;

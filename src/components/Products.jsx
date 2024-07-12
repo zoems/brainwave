@@ -3,16 +3,15 @@ import Heading from "./Heading";
 import { service1, service3, check } from "../assets";
 import { brainwaveServices, brainwaveServicesIcons } from "../constants";
 import {
-  Gradient,
-  PhotoChatMessage,
   // Gradient,
+  PhotoChatMessage,
 } from "./design/Services";
 import Arrow from "../assets/svg/Arrow";
 
-const Services = () => {
+const Products = () => {
   return (
     <>
-      <Section id="how-to-use">
+      <Section id="products">
         <div className="container">
           <Heading
             title="Products"
@@ -297,4 +296,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default Products;

@@ -87,35 +87,35 @@ export const navigation = [
   {
     id: "0",
     title: "Services",
-    url: "#features",
+    url: "#services",
   },
   {
     id: "1",
     title: "About",
-    url: "#pricing",
+    url: "#about",
   },
   {
     id: "2",
     title: "Team",
-    url: "#how-to-use",
+    url: "#team",
   },
   {
     id: "3",
     title: "Products",
-    url: "#roadmap",
+    url: "#products",
   },
-  {
-    id: "4",
-    title: "New account",
-    url: "#signup",
-    onlyMobile: true,
-  },
-  {
-    id: "5",
-    title: "Sign in",
-    url: "#login",
-    onlyMobile: true,
-  },
+  // {
+  //   id: "4",
+  //   title: "New account",
+  //   url: "#signup",
+  //   onlyMobile: true,
+  // },
+  // {
+  //   id: "5",
+  //   title: "Sign in",
+  //   url: "#login",
+  //   onlyMobile: true,
+  // },
 ];
 
 export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
