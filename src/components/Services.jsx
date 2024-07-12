@@ -4,7 +4,7 @@ import Button from "./Button";
 import Section from "./Section";
 import { LeftCurve, RightCurve } from "./design/Collaboration";
 
-const Collaboration = () => {
+const Services = () => {
   return (
     <Section id="services" crosses>
       <div className="container lg:flex">
@@ -84,4 +84,4 @@ const Collaboration = () => {
   );
 };
 
-export default Collaboration;
+export default Services;

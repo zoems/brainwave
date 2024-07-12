@@ -4,14 +4,30 @@ import Section from "./Section";
 import Arrow from "../assets/svg/Arrow";
 import { GradientLight } from "./design/Benefits";
 import { heroBackground } from "../assets";
+import { useState } from "react";
+import Button from "./Button";
 
-const Benefits = () => {
+const Team = () => {
+  const [openTeam, setOpenTeam] = useState(false);
+  console.log(openTeam);
+
   const onClick = (url) => {
     if (!url) {
       return;
     }
     console.log("clicked");
     window.location.href = url;
+  };
+
+  const toggleteam = () => {
+    console.log("toggle team");
+    if (openTeam) {
+      console.log("team was open");
+      setOpenTeam(false);
+    } else {
+      console.log("team was closed");
+      setOpenTeam(true);
+    }
   };
 
   return (
@@ -22,8 +38,17 @@ const Benefits = () => {
           title="Our core team of professionals are respected global leaders in their respective fields providing turnkey solutions including advice and product supply."
           text=""
         />
+        <div>
+          <Button className="flex md:hidden mb-6" onClick={toggleteam}>
+            Show Team
+          </Button>
+        </div>
 
-        <div className="flex flex-wrap gap-10 mb-10">
+        <div
+          className={`md:flex flex-wrap gap-10 mb-10
+            ${openTeam ? "flex flex-wrap" : "hidden"}
+            `}
+        >
           {team.map((item) => (
             <div
               className="block relative p-0.5 bg-no-repeat md:max-w-[24rem] group"
@@ -77,4 +102,4 @@ const Benefits = () => {
   );
 };
 
-export default Benefits;
+export default Team;

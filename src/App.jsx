@@ -1,10 +1,11 @@
-import Benefits from "./components/Team";
-import Collaboration from "./components/Services";
+import Team from "./components/Team";
+import Services from "./components/Services";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import ButtonGradient from "./assets/svg/ButtonGradient";
-import Services from "./components/Products";
+import Products from "./components/Products";
 import Footer from "./components/Footer";
+import About from "./components/About";
 
 const App = () => {
   return (
@@ -12,12 +13,13 @@ const App = () => {
       <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
         <Header />
         <Hero />
-        <Collaboration />
-        <Benefits />
         <Services />
-        <ButtonGradient />
+        <Team />
+        <Products />
+        <About />
         <Footer />
       </div>
+      <ButtonGradient />
     </>
   );
 };

@@ -8,7 +8,7 @@ import {
 } from "./design/Services";
 import Arrow from "../assets/svg/Arrow";
 
-const Services = () => {
+const Products = () => {
   return (
     <>
       <Section id="products">
@@ -296,4 +296,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default Products;
