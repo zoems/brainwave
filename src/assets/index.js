@@ -43,14 +43,14 @@ import service3 from "./services/service-3.png";
 import lines from "./pricing/lines.svg";
 import stars from "./pricing/stars.svg";
 
-import coins from "./roadmap/coins.png";
-import done from "./roadmap/done.svg";
-import hero from "./roadmap/hero.png";
-import roadmap1 from "./roadmap/image-1.png";
-import roadmap2 from "./roadmap/image-2.png";
-import roadmap3 from "./roadmap/image-3.png";
-import roadmap4 from "./roadmap/image-4.png";
-import undone from "./roadmap/undone.svg";
+// import coins from "./roadmap/coins.png";
+// import done from "./roadmap/done.svg";
+// import hero from "./roadmap/hero.png";
+// import roadmap1 from "./roadmap/image-1.png";
+// import roadmap2 from "./roadmap/image-2.png";
+// import roadmap3 from "./roadmap/image-3.png";
+// import roadmap4 from "./roadmap/image-4.png";
+// import undone from "./roadmap/undone.svg";
 
 import notification1 from "./notification/image-1.png";
 import notification2 from "./notification/image-2.png";
@@ -116,6 +116,7 @@ import globelogo from "./collaboration/globelogo.png";
 
 import farms3 from "./hero/farms3.jpeg";
 import checkingSalmon from "./services/checking-salmon.jpeg";
+import productsbg from "./services/productsbg.png";
 
 import alastairdouglas from "./team/alastair-douglas.jpeg";
 import christinehuynh from "./team/christine-huynh.jpeg";
@@ -126,7 +127,22 @@ import sambowman from "./team/sam-bowman.jpeg";
 
 import linkedin from "./socials/linkedin.svg";
 
+import torsaker from "./about/torsaker.jpg";
+import balifish from "./about/balifish.jpg";
+import alastair from "./about/alastair-mg.jpeg";
+import puertofarm from "./about/farm.jpg";
+import castnet from "./about/cast-net.png";
+
 export {
+  productsbg,
+  //---
+  torsaker,
+  balifish,
+  alastair,
+  puertofarm,
+  castnet,
+
+  //----
   linkedin,
   //-------- team
   alastairdouglas,
@@ -217,14 +233,14 @@ export {
   service3,
   lines,
   stars,
-  coins,
-  done,
-  hero,
-  roadmap1,
-  roadmap2,
-  roadmap3,
-  roadmap4,
-  undone,
+  // coins,
+  // done,
+  // hero,
+  // roadmap1,
+  // roadmap2,
+  // roadmap3,
+  // roadmap4,
+  // undone,
   notification1,
   notification2,
   notification3,

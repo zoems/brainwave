@@ -1,6 +1,6 @@
 import Section from "./Section";
 import Heading from "./Heading";
-import { service1, service3, check } from "../assets";
+import { service1, service3, check, productsbg } from "../assets";
 import { brainwaveServices, brainwaveServicesIcons } from "../constants";
 import {
   // Gradient,
@@ -11,7 +11,7 @@ import Arrow from "../assets/svg/Arrow";
 const Products = () => {
   return (
     <>
-      <Section id="products">
+      <Section id="products" className="z-1">
         <div className="container">
           <Heading
             title="Products"
@@ -21,7 +21,7 @@ const Products = () => {
           <div className="relative">
             <div
               id="box1/row1"
-              className="relative z-1 flex items-center h-[39rem] mb-5 p-8 border border-n-1/10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]"
+              className="relative z-1 flex items-center h-[39rem] mb-5 p-8 border bg-n-7 border-n-1/10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]"
             >
               <div className="absolute top-0 left-0 w-full h-full pointer-events-none md:w-3/5 xl:w-auto opacity-70 md:opacity-100">
                 <img
@@ -45,7 +45,7 @@ const Products = () => {
                   {brainwaveServices.map((item, index) => (
                     <li
                       key={index}
-                      className="flex items-start py-4 border-t border-n-6"
+                      className="flex items-start py-4 border-t bg-n-7 border-n-6"
                     >
                       <img width={24} height={24} src={check} />
                       <p className="ml-4">{item}</p>
@@ -110,7 +110,7 @@ const Products = () => {
 
               <div
                 id="box2"
-                className="relative min-h-[60rem] border border-n-1/10 rounded-3xl overflow-hidden"
+                className="relative min-h-[60rem] border bg-n-7 border-n-1/10 rounded-3xl overflow-hidden"
               >
                 <div className="absolute inset-0 flex flex-col justify-end p-4 lg:p-8">
                   <h4 className="h4 mb-4">
@@ -161,7 +161,7 @@ const Products = () => {
           <div className="relative">
             <div
               id="box1/row1"
-              className="relative z-1 flex items-center h-[39rem] mb-5 p-8 border border-n-1/10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]"
+              className="relative z-1 flex items-center h-[39rem] mb-5 p-8 border bg-n-7 border-n-1/10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]"
             >
               <div className="absolute top-0 left-0 w-full h-full pointer-events-none md:w-3/5 xl:w-auto opacity-70 md:opacity-100">
                 <img
@@ -248,7 +248,7 @@ const Products = () => {
 
               <div
                 id="box2"
-                className="relative min-h-[60rem] border border-n-1/10 rounded-3xl overflow-hidden"
+                className="relative min-h-[60rem] bg-n-7 border border-n-1/10 rounded-3xl overflow-hidden"
               >
                 <div className="absolute inset-0 flex flex-col justify-end p-4 lg:p-8">
                   <h4 className="h4 mb-4">
@@ -291,6 +291,15 @@ const Products = () => {
             </div>
           </div>
         </div>
+        {/* <div className="absolute -top-[54%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[104%]">
+          <img
+            src={productsbg}
+            className="w-full object fill -z-1"
+            width={1440}
+            height={1800}
+            alt="hero"
+          />
+        </div> */}
       </Section>
     </>
   );
