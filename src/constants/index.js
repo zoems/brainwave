@@ -112,7 +112,7 @@ export const navigation = [
   {
     id: "4",
     title: "Contact",
-    url: "#contact",
+    url: "contact",
   },
   // {
   //   id: "4",
@@ -207,14 +207,14 @@ export const about = [
     id: "2",
     title: "Puerto Montt Salmon",
     text: "Sea grown rainbow trout and mussels growing together",
-    date: "May 2023",
+    // date: "May 2023",
     imageUrl: puertofarm,
   },
   {
     id: "3",
     title: "United Nations World Food Program",
     text: "SmartAqua MD Alastair Smart at Seafood Storied Dinner with the United Nations World Food Program’s SDG2 Advocacy Hub’s Chefs of the Chefs Manifesto, Stockholm EAT Forum, Torsaker Farm.",
-    date: "May 2023",
+    // date: "May 2023",
     imageUrl: torsaker,
   },
 ];
@@ -314,42 +314,6 @@ export const collabApps = [
   },
 ];
 
-export const pricing = [
-  {
-    id: "0",
-    title: "Basic",
-    description: "AI chatbot, personalized recommendations",
-    price: "0",
-    features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
-    ],
-  },
-  {
-    id: "1",
-    title: "Premium",
-    description: "Advanced AI chatbot, priority support, analytics dashboard",
-    price: "9.99",
-    features: [
-      "An advanced AI chatbot that can understand complex queries",
-      "An analytics dashboard to track your conversations",
-      "Priority support to solve issues quickly",
-    ],
-  },
-  {
-    id: "2",
-    title: "Enterprise",
-    description: "Custom AI chatbot, advanced analytics, dedicated account",
-    price: null,
-    features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
-    ],
-  },
-];
-
 export const team = [
   // {
   //   id: "0",
@@ -396,60 +360,60 @@ export const team = [
   },
 ];
 
-export const benefits = [
-  {
-    id: "0",
-    title: "xxx",
-    text: "xxx",
-    backgroundUrl: benefitCard1,
-    iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
-    light: true,
-    url: "#hero",
-  },
-  {
-    id: "1",
-    title: "xxxTotal Site Project Managementxxx",
-    text: "xxxAquaculture Development Project Management, Veterinary Services, Biosecurity and Health Managementxxx ",
-    backgroundUrl: benefitCard2,
-    iconUrl: benefitIcon2,
-    imageUrl: checkingSalmon,
-    light: true,
-  },
-  {
-    id: "2",
-    title: "xxxx",
-    text: "xxxx",
-    backgroundUrl: benefitCard3,
-    iconUrl: benefitIcon3,
-    imageUrl: benefitImage2,
-  },
-  {
-    id: "3",
-    title: "xxxx",
-    text: "xxxxx",
-    backgroundUrl: benefitCard4,
-    iconUrl: benefitIcon4,
-    imageUrl: benefitImage2,
-    light: true,
-  },
-  {
-    id: "4",
-    title: "xxx",
-    text: "xxx",
-    backgroundUrl: benefitCard5,
-    iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
-  },
-  {
-    id: "5",
-    title: "xxxxxx",
-    text: "xxxxx",
-    backgroundUrl: benefitCard6,
-    iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
-  },
-];
+// export const benefits = [
+//   {
+//     id: "0",
+//     title: "xxx",
+//     text: "xxx",
+//     backgroundUrl: benefitCard1,
+//     iconUrl: benefitIcon1,
+//     imageUrl: benefitImage2,
+//     light: true,
+//     url: "#hero",
+//   },
+//   {
+//     id: "1",
+//     title: "xxxTotal Site Project Managementxxx",
+//     text: "xxxAquaculture Development Project Management, Veterinary Services, Biosecurity and Health Managementxxx ",
+//     backgroundUrl: benefitCard2,
+//     iconUrl: benefitIcon2,
+//     imageUrl: checkingSalmon,
+//     light: true,
+//   },
+//   {
+//     id: "2",
+//     title: "xxxx",
+//     text: "xxxx",
+//     backgroundUrl: benefitCard3,
+//     iconUrl: benefitIcon3,
+//     imageUrl: benefitImage2,
+//   },
+//   {
+//     id: "3",
+//     title: "xxxx",
+//     text: "xxxxx",
+//     backgroundUrl: benefitCard4,
+//     iconUrl: benefitIcon4,
+//     imageUrl: benefitImage2,
+//     light: true,
+//   },
+//   {
+//     id: "4",
+//     title: "xxx",
+//     text: "xxx",
+//     backgroundUrl: benefitCard5,
+//     iconUrl: benefitIcon1,
+//     imageUrl: benefitImage2,
+//   },
+//   {
+//     id: "5",
+//     title: "xxxxxx",
+//     text: "xxxxx",
+//     backgroundUrl: benefitCard6,
+//     iconUrl: benefitIcon2,
+//     imageUrl: benefitImage2,
+//   },
+// ];
 
 export const socials = [
   {
@@ -459,15 +423,9 @@ export const socials = [
     url: "https://www.linkedin.com/company/smartaqua/",
   },
   {
-    id: "1",
-    title: "Twitter",
-    iconUrl: twitter,
-    url: "#",
-  },
-  {
     id: "2",
     title: "Contact",
-    url: "#",
+    url: "contact",
   },
   // {
   //   id: "3",
