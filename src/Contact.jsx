@@ -2,7 +2,7 @@ import emailjs from "@emailjs/browser";
 import { Canvas } from "@react-three/fiber";
 import { Suspense, useRef, useState } from "react";
 
-import Loader, { GradientLight } from "./components/design/Contact";
+import Loader from "./components/design/Contact";
 import useAlert from "./hooks/useAlert";
 import Alert from "./components/Alert";
 import Fishes from "./models/fishes";

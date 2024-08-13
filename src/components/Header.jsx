@@ -10,6 +10,9 @@ import { useState } from "react";
 
 const Header = () => {
   const pathname = useLocation();
+  console.log(pathname);
+  console.log(navigation[1].url);
+
   const [openNavigation, setOpenNavigation] = useState(false);
 
   const toggleNavigation = () => {
@@ -36,7 +39,7 @@ const Header = () => {
       }`}
     >
       <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
-        <a className="block w-[12rem] xl:mr-8" href="#hero">
+        <a className="block w-[12rem] xl:mr-8" href="/#hero">
           <img src={smartaqua} width={190} height={40} alt="Smartaqua" />
         </a>
 
