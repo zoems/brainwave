@@ -39,7 +39,7 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone https://github.com/zoems/brainwave.git
+git clone https://github.com/zoems/eachmileweb.git
 cd brainwave
 ```
 
