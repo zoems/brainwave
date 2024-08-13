@@ -5,7 +5,7 @@ import { BackgroundCircles, BottomLine } from "./design/Hero";
 import { ScrollParallax } from "react-just-parallax";
 import { useRef } from "react";
 // import Generating from "./Generating";
-import Notification from "./Notification";
+import Notification from "./Quote";
 import CompanyLogos from "./CompanyLogos";
 
 const Hero = () => {
@@ -57,24 +57,23 @@ const Hero = () => {
                 {/* <Generating className="absolute left-4 right-4 bottom-5 md:left-1/2 md:right-auto md:bottom-8 md:w-[31rem] md:-translate-x-1/2" /> */}
 
                 <ScrollParallax isAbsolutelyPositioned>
-                  <div className="hidden absolute -left-[15rem] bottom-[7.5rem] px-5 py-5 max-w-[23rem] bg-n-9/40 backdrop-blur border border-n-1/10 rounded-2xl xl:flex xl:flex-col">
-                    <p>
-                      “IT HAS BEEN CALCULATED that if no accident prevented the
+                  <Notification
+                    className="hidden absolute -left-[6rem] bottom-[7.5rem] px-5 py-5 max-w-[23rem] bg-n-9/40 backdrop-blur border border-n-1/10 rounded-2xl xl:flex xl:flex-col"
+                    title="“IT HAS BEEN CALCULATED that if no accident prevented the
                       hatching of the eggs and each egg reached maturity, it
                       would take only three years to fill the sea so that you
                       could walk across the Atlantic dryshod on the backs of
-                      cod.”
-                    </p>
-                    <span className="mt-4">
-                      Alexandre Dumas, Le Grand Dictionnaire de Cuisine, 1873
-                    </span>
-                  </div>
+                      cod.”"
+                    author={
+                      "-Alexandre Dumas, Le Grand Dictionnaire de Cuisine, 1873"
+                    }
+                  ></Notification>
                 </ScrollParallax>
 
                 <ScrollParallax isAbsolutelyPositioned>
                   <Notification
-                    className="hidden absolute -right-[5.5rem] bottom-[11rem] w-[18rem] xl:flex"
-                    title="Code generation"
+                    className="hidden absolute -right-[5.5rem] bottom-[11rem] w-[18rem] xl:flex xl:flex-col"
+                    title="After around 30,000 hours of nurturing, don't neglect the final hour where it's time to harvest the fish."
                   />
                 </ScrollParallax>
               </div>
