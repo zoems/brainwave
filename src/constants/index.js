@@ -92,22 +92,22 @@ export const navigation = [
   {
     id: "0",
     title: "Services",
-    url: "#services",
+    url: "/#services",
   },
   {
     id: "1",
     title: "About",
-    url: "#about",
+    url: "/#about",
   },
   {
     id: "2",
     title: "Team",
-    url: "#team",
+    url: "/#team",
   },
   {
     id: "3",
     title: "Products",
-    url: "#products",
+    url: "/#products",
   },
   {
     id: "4",
