@@ -7,6 +7,7 @@ import { useRef } from "react";
 // import Generating from "./Generating";
 import Notification from "./Quote";
 import CompanyLogos from "./CompanyLogos";
+import Quote from "./Quote";
 
 const Hero = () => {
   const parallaxRef = useRef(null);
@@ -57,7 +58,7 @@ const Hero = () => {
                 {/* <Generating className="absolute left-4 right-4 bottom-5 md:left-1/2 md:right-auto md:bottom-8 md:w-[31rem] md:-translate-x-1/2" /> */}
 
                 <ScrollParallax isAbsolutelyPositioned>
-                  <Notification
+                  <Quote
                     className="hidden absolute -left-[6rem] bottom-[7.5rem] px-5 py-5 max-w-[23rem] bg-n-9/40 backdrop-blur border border-n-1/10 rounded-2xl xl:flex xl:flex-col"
                     title="“IT HAS BEEN CALCULATED that if no accident prevented the
                       hatching of the eggs and each egg reached maturity, it
@@ -67,13 +68,13 @@ const Hero = () => {
                     author={
                       "-Alexandre Dumas, Le Grand Dictionnaire de Cuisine, 1873"
                     }
-                  ></Notification>
+                  ></Quote>
                 </ScrollParallax>
 
                 <ScrollParallax isAbsolutelyPositioned>
-                  <Notification
-                    className="hidden absolute -right-[5.5rem] bottom-[11rem] w-[18rem] xl:flex xl:flex-col"
-                    title="After around 30,000 hours of nurturing, don't neglect the final hour where it's time to harvest the fish."
+                  <Quote
+                    className="hidden absolute -right-[5.5rem] bottom-[11rem] max-w-[23rem] px-5 py-5 xl:flex xl:flex-col"
+                    title="It can take 20,000-30,000 hours of careful husbandry to produce a fish of around 3-5kg, and less than one hour to reduce that investment to well below cost by saving on humane harvesting technology."
                   />
                 </ScrollParallax>
               </div>
