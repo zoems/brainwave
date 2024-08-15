@@ -2,15 +2,15 @@ import emailjs from "@emailjs/browser";
 import { Canvas } from "@react-three/fiber";
 import { Suspense, useRef, useState } from "react";
 
-import Loader from "./components/design/Contact";
-import useAlert from "./hooks/useAlert";
-import Alert from "./components/Alert";
-import Fishes from "./models/fishes";
-import Section from "./components/Section";
-import Header from "./components/Header";
-import Button from "./components/Button";
-import Footer from "./components/Footer";
-import ButtonGradient from "./assets/svg/ButtonGradient";
+import Loader from "../components/design/Contact";
+import useAlert from "../hooks/useAlert";
+import Alert from "../components/Alert";
+import Fishes from "../models/fishes";
+import Section from "../components/Section";
+import Header from "../components/Header";
+import Button from "../components/Button";
+import Footer from "../components/Footer";
+import ButtonGradient from "../assets/svg/ButtonGradient";
 
 // npm install @emailjs/browser
 
