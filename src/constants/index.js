@@ -86,6 +86,10 @@ import {
   benefitCard5,
   benefitCard6,
   checkingSalmon,
+  alsmart,
+  gopinathnagaraj,
+  fernandooyarzun,
+  fuzrahman,
 } from "../assets";
 
 export const navigation = [
@@ -315,13 +319,12 @@ export const collabApps = [
 ];
 
 export const team = [
-  // {
-  //   id: "0",
-  //   name: "Alastair Smart",
-  //   text: "xxx",
-  //   imageUrl: benefitImage2,
-
-  // },
+  {
+    id: "0",
+    name: "Alastair Smart",
+    imageUrl: alsmart,
+    lnlink: "https://www.linkedin.com/in/alastair-smart-72b93129/",
+  },
   {
     id: "1",
     name: "Alastair Douglas",
@@ -335,16 +338,28 @@ export const team = [
     lnlink: "https://www.linkedin.com/in/christine-huynh-2282aa53/",
   },
   {
-    id: "3",
-    name: "Glen Shiell",
-    imageUrl: glenshiell,
-    lnlink: "https://www.linkedin.com/in/gshiell/",
-  },
-  {
     id: "4",
     name: "Joseph Tuma",
     imageUrl: josephtuma,
     lnlink: "https://www.linkedin.com/in/joseph-tuma-3b56451a/",
+  },
+  {
+    id: "6",
+    name: "Sam Bowman",
+    imageUrl: sambowman,
+    lnlink: "https://www.linkedin.com/in/sam-bowman-marketing27/",
+  },
+  {
+    id: "6",
+    name: "Fernando Oyarzun",
+    imageUrl: fernandooyarzun,
+    lnlink: "https://www.linkedin.com/in/fernando-oyarzun-8a02685/",
+  },
+  {
+    id: "3",
+    name: "Glen Shiell",
+    imageUrl: glenshiell,
+    lnlink: "https://www.linkedin.com/in/gshiell/",
   },
   {
     id: "5",
@@ -354,9 +369,15 @@ export const team = [
   },
   {
     id: "6",
-    name: "Sam Bowman",
-    imageUrl: sambowman,
-    lnlink: "https://www.linkedin.com/in/sam-bowman-marketing27/",
+    name: "Gopinath Nagaraj",
+    imageUrl: gopinathnagaraj,
+    lnlink: "https://www.linkedin.com/in/gopinath-nagaraj-0467b211/",
+  },
+  {
+    id: "6",
+    name: "Fuz Rahman",
+    imageUrl: fuzrahman,
+    lnlink: "https://www.linkedin.com/in/fuz-rahman-42638920/",
   },
 ];
 

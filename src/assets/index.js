@@ -124,6 +124,10 @@ import glenshiell from "./team/glen-shiell.jpeg";
 import josephtuma from "./team/joseph-tuma.jpeg";
 import paulasylvia from "./team/paula-sylvia.jpeg";
 import sambowman from "./team/sam-bowman.jpeg";
+import alsmart from "./team/al-smart.jpg";
+import fernandooyarzun from "./team/fernando-oyarzun.jpg";
+import gopinathnagaraj from "./team/gopinathnagaraj.jpg";
+import fuzrahman from "./team/fuz-rahman.png";
 
 import linkedin from "./socials/linkedin.svg";
 
@@ -145,12 +149,16 @@ export {
   //----
   linkedin,
   //-------- team
+  alsmart,
   alastairdouglas,
   christinehuynh,
   glenshiell,
   josephtuma,
   paulasylvia,
   sambowman,
+  gopinathnagaraj,
+  fuzrahman,
+  fernandooyarzun,
   // ---------- partners
   puresalmon,
   barramundiasia,
