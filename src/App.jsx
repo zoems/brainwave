@@ -1,7 +1,6 @@
-import React from "react";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
-import Contact from "./Contact.jsx";
-import Home from "./Home.jsx"; // Assuming you have a Home component
+import Contact from "./pages/Contact.jsx";
+import Home from "./pages/Home.jsx";
 
 function App() {
   return (
