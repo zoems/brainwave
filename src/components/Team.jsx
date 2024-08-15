@@ -64,7 +64,7 @@ const Team = () => {
                     onClick={() => onClick(item.lnlink)}
                     className=" ml-auto font-code text-xs font-bold text-n-1 hover:text-color-1 uppercase tracking-wider"
                   >
-                    Explore more
+                    Linked In
                   </button>
                   <Arrow />
                 </div>

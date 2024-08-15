@@ -5,7 +5,6 @@ import { BackgroundCircles, BottomLine } from "./design/Hero";
 import { ScrollParallax } from "react-just-parallax";
 import { useRef } from "react";
 // import Generating from "./Generating";
-import Notification from "./Quote";
 import CompanyLogos from "./CompanyLogos";
 import Quote from "./Quote";
 
@@ -41,8 +40,8 @@ const Hero = () => {
             venture capital and private equity firms, governments, researchers
             and non-government organisations.”
           </p>
-          <Button href="/pricing" white>
-            Get started
+          <Button href="/contact" white>
+            Get in touch
           </Button>
         </div>
         <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-22">
