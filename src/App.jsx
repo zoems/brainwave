@@ -1,27 +1,17 @@
-import Team from "./components/Team";
-import Services from "./components/Services";
-import Header from "./components/Header";
-import Hero from "./components/Hero";
-import ButtonGradient from "./assets/svg/ButtonGradient";
-import Products from "./components/Products";
-import Footer from "./components/Footer";
-import About from "./components/About";
+import React from "react";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import Contact from "./Contact.jsx";
+import Home from "./Home.jsx"; // Assuming you have a Home component
 
-const App = () => {
+function App() {
   return (
-    <>
-      <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
-        <Header />
-        <Hero />
-        <Services />
-        <Team />
-        <Products />
-        <About />
-        <Footer />
-      </div>
-      <ButtonGradient />
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </Router>
   );
-};
+}
 
 export default App;

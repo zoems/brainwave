@@ -12,6 +12,8 @@ import Button from "./components/Button";
 import Footer from "./components/Footer";
 import ButtonGradient from "./assets/svg/ButtonGradient";
 
+// npm install @emailjs/browser
+
 const Contact = () => {
   const formRef = useRef(null);
   const [form, setForm] = useState({ name: "", email: "", message: "" });
