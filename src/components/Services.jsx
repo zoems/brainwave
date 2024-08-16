@@ -44,7 +44,7 @@ const Services = () => {
                     src={globelogo}
                     width={236}
                     height={166}
-                    alt="brainwave"
+                    alt="smartaqua global"
                   />
                 </div>
               </div>

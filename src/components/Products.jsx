@@ -153,7 +153,7 @@ const Products = () => {
                     humane harvesting technology.
                   </p>
                   <ul className="body-2">
-                    {brainwaveServices.map((item, index) => (
+                    {points.map((item, index) => (
                       <li
                         key={index}
                         className="flex items-start py-4 border-t border-n-6"
