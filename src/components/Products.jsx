@@ -1,7 +1,7 @@
 import Section from "./Section";
 import Heading from "./Heading";
-import { service1, service3, check, productsbg } from "../assets";
-import { brainwaveServices, brainwaveServicesIcons } from "../constants";
+import { service1, service3, check } from "../assets";
+import { brainwaveServices } from "../constants";
 import {
   // Gradient,
   PhotoChatMessage,
@@ -69,29 +69,6 @@ const Products = () => {
                     operation and allows you to maintain the best condition of
                     your seafood at every stage—from harvest to the consumer.
                   </p>
-
-                  {/* <ul className="flex items-center justify-between">
-                  {brainwaveServicesIcons.map((item, index) => (
-                    <li
-                      key={index}
-                      className={`rounded-2xl flex items-center justify-center ${
-                        index === 2
-                          ? "w-[3rem] h-[3rem] p-0.25 bg-conic-gradient md:w-[4.5rem] md:h-[4.5rem]"
-                          : "flex w-10 h-10 bg-n-6 md:w-15 md:h-15"
-                      }`}
-                    >
-                      <div
-                        className={
-                          index === 2
-                            ? "flex items-center justify-center w-full h-full bg-n-7 rounded-[1rem]"
-                            : ""
-                        }
-                      >
-                        <img src={item} width={24} height={24} alt={item} />
-                      </div>
-                    </li>
-                  ))}
-                </ul> */}
                 </div>
 
                 <div className="relative h-[20rem] bg-n-8 rounded-xl overflow-hidden md:h-[35rem]">
@@ -102,9 +79,6 @@ const Products = () => {
                     height={400}
                     alt="slurry silos"
                   />
-                  {/*
-                <VideoChatMessage />
-                <VideoBar /> */}
                 </div>
               </div>
 
@@ -155,15 +129,6 @@ const Products = () => {
             {/* <Gradient /> */}
           </div>
         </div>
-        {/* <div className="absolute -top-[54%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[104%]">
-          <img
-            src={productsbg}
-            className="w-full object fill -z-1"
-            width={1440}
-            height={1800}
-            alt="hero"
-          />
-        </div> */}
       </Section>
       {/* <Section crosses>
           <div className="container">

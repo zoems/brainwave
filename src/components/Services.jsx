@@ -1,5 +1,5 @@
 import { check, globelogo } from "../assets";
-import { collabApps, collabContent, collabText } from "../constants";
+import { servicesApps, services, servicesText } from "../constants";
 import Button from "./Button";
 import Section from "./Section";
 import { LeftCurve, RightCurve } from "./design/Collaboration";
@@ -15,7 +15,7 @@ const Services = () => {
           </h2>
 
           <ul className="max-w-[22rem] mb-10 md:mb-14">
-            {collabContent.map((item) => (
+            {services.map((item) => (
               <li className="mb-3 py-3" key={item.id}>
                 <div className="flex items-center">
                   <img src={check} width={24} height={24} alt="check" />
@@ -33,7 +33,7 @@ const Services = () => {
 
         <div className="lg:ml-auto xl:w-[38rem] mt-10">
           <p className="body-2 mb-8 text-n-4 md:mb-16 lg:mb-32 lg:w-[22rem] lg:mx-auto">
-            {collabText}
+            {servicesText}
           </p>
 
           <div className="relative left-1/2 flex w-[37rem] aspect-square border border-n-6 rounded-full -translate-x-1/2 scale-[50%] md:scale-100">
@@ -51,7 +51,7 @@ const Services = () => {
             </div>
 
             <ul>
-              {collabApps.map((app, index) => (
+              {servicesApps.map((app, index) => (
                 <li
                   key={app.id}
                   className={`absolute top-0 left-1/2 h-1/2 -ml-[2.5rem] origin-bottom rotate-${
