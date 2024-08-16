@@ -13,19 +13,13 @@ import {
   ////////////
   discord,
   figma,
-  file02,
   framer,
-  homeSmile,
-  notification2,
-  notification3,
-  notification4,
   notion,
   photoshop,
-  plusSquare,
   protopie,
   raindrop,
-  searchMd,
   slack,
+  ///////////
   puresalmon,
   barramundiasia,
   ssc,
@@ -104,10 +98,6 @@ export const navigation = [
   //   onlyMobile: true,
   // },
 ];
-
-export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
-
-export const notificationImages = [notification4, notification3, notification2];
 
 export const companyLogos = [
   puresalmon,
