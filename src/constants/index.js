@@ -146,7 +146,7 @@ export const companyLogos = [
   veramaris,
 ];
 
-export const brainwaveServices = [
+export const deepChillPoints = [
   "Fast, uniform cooling",
   "Improve operation efficiency",
   "Higher filleting yield",

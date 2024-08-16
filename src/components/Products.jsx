@@ -1,11 +1,8 @@
 import Section from "./Section";
 import Heading from "./Heading";
 import { service1, service3, check } from "../assets";
-import { brainwaveServices } from "../constants";
-import {
-  // Gradient,
-  PhotoChatMessage,
-} from "./design/Services";
+import { deepChillPoints } from "../constants";
+import { Gradient, LeftMessage } from "./design/Services";
 import Arrow from "../assets/svg/Arrow";
 
 const Products = () => {
@@ -42,7 +39,7 @@ const Products = () => {
                   superchill and hold valuable product at peak freshness.
                 </p>
                 <ul className="body-2">
-                  {brainwaveServices.map((item, index) => (
+                  {deepChillPoints.map((item, index) => (
                     <li
                       key={index}
                       className="flex items-start py-4 border-t bg-n-7 border-n-6"
@@ -53,7 +50,7 @@ const Products = () => {
                   ))}
                 </ul>
               </div>
-              <PhotoChatMessage />
+              <LeftMessage />
             </div>
 
             <div id="row2" className="relative z-1 grid gap-5 lg:grid-cols-2">
@@ -126,7 +123,7 @@ const Products = () => {
               </div>
             </div>
 
-            {/* <Gradient /> */}
+            <Gradient />
           </div>
         </div>
       </Section>
