@@ -40,8 +40,9 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone https://github.com/zoems/smartaquaweb.git
-cd smartaquaweb
+git clone https://github.com/zoems/eachmileweb.git
+cd eachmileweb
+
 ```
 
 **Installation**
@@ -59,3 +60,10 @@ npm run dev
 ```
 
 Open [http://localhost:5173](http://localhost:5173) in your browser to view the project.
+
+## <a name="Acknowlegements">Aknowledgements</a>
+- Web Design - <a href="https://ui8.net/ui8/products/brainwave-ai-landing-page-kit?rel=jsm">UI8</a>
+- UI Components / Tutorial - <a href="https://www.youtube.com/watch?v=B91wc5dCEBA">Adrian Hajdin JSMastery</a>
+- 3D Fish Model - <a href="https://sketchfab.com/3d-models/the-fish-particle-eb214794846949a5a0b1af75fd649aa2">Loïc Norgeot</a>
+- <a href="https://gltf.pmnd.rs/">GLTF to React three fiber </a>
+
