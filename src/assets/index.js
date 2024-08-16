@@ -78,7 +78,7 @@ import twitter from "./socials/twitter.svg";
 import aquatec from "./partners/ace-aquatec.png";
 import aquatiq from "./partners/aquatiq-logo.png";
 import calkins from "./partners/calkins-burke.jpg";
-import eachmile from "./partners/eachmile.jpg";
+
 import mtcook from "./partners/mtcook-alpine.jpg";
 import naqua from "./partners/naqua.jpeg";
 import nutreco from "./partners/nutreco.jpg";
@@ -186,7 +186,6 @@ export {
   aquatec,
   aquatiq,
   calkins,
-  eachmile,
   mtcook,
   naqua,
   nutreco,
