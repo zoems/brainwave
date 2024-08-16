@@ -1,4 +1,5 @@
 ## <a name="tech-stack">Tech Stack</a>
+
 <div align="center">
   <div>
     <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
@@ -40,7 +41,8 @@ Make sure you have the following installed on your machine:
 
 ```bash
 git clone https://github.com/zoems/eachmileweb.git
-cd brainwave
+cd eachmileweb
+
 ```
 
 **Installation**

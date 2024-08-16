@@ -1,7 +1,6 @@
 import {
   castnet,
   torsaker,
-  balifish,
   alastair,
   puertofarm,
   linkedin,
@@ -11,39 +10,16 @@ import {
   josephtuma,
   paulasylvia,
   sambowman,
-  benefitIcon1,
-  benefitIcon2,
-  benefitIcon3,
-  benefitIcon4,
-  benefitImage2,
-  chromecast,
-  disc02,
+  ////////////
   discord,
-  facebook,
   figma,
-  file02,
   framer,
-  homeSmile,
-  instagram,
-  notification2,
-  notification3,
-  notification4,
   notion,
   photoshop,
-  plusSquare,
   protopie,
   raindrop,
-  recording01,
-  recording03,
-  // roadmap1,
-  // roadmap2,
-  // roadmap3,
-  // roadmap4,
-  searchMd,
   slack,
-  sliders04,
-  telegram,
-  twitter,
+  ///////////
   puresalmon,
   barramundiasia,
   ssc,
@@ -70,7 +46,6 @@ import {
   aquatec,
   aquatiq,
   calkins,
-  eachmile,
   mtcook,
   naqua,
   nutreco,
@@ -79,15 +54,7 @@ import {
   paspaley,
   solvay,
   veramaris,
-  benefitCard1,
-  benefitCard2,
-  benefitCard3,
-  benefitCard4,
-  benefitCard5,
-  benefitCard6,
-  checkingSalmon,
   alsmart,
-  gopinathnagaraj,
   fernandooyarzun,
   fuzrahman,
 } from "../assets";
@@ -132,10 +99,6 @@ export const navigation = [
   // },
 ];
 
-export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
-
-export const notificationImages = [notification4, notification3, notification2];
-
 export const companyLogos = [
   puresalmon,
   barramundiasia,
@@ -163,7 +126,6 @@ export const companyLogos = [
   aquatec,
   aquatiq,
   calkins,
-  eachmile,
   mtcook,
   naqua,
   nutreco,
@@ -174,19 +136,11 @@ export const companyLogos = [
   veramaris,
 ];
 
-export const brainwaveServices = [
+export const deepChillPoints = [
   "Fast, uniform cooling",
   "Improve operation efficiency",
   "Higher filleting yield",
   "Extended shelf life",
-];
-
-export const brainwaveServicesIcons = [
-  recording03,
-  recording01,
-  disc02,
-  chromecast,
-  sliders04,
 ];
 
 export const about = [
@@ -223,10 +177,10 @@ export const about = [
   },
 ];
 
-export const collabText =
+export const servicesText =
   "SmartAqua was first established in 1996 by Alastair Smart to offer seafood consulting services chiefly to the fast growing aquaculture industry. After some years working in many countries he saw a number of colleagues offering the same service and the concept of a Team offering a one-stop-shop for seafood advice not limited by scope or geography was formed and the group expanded globally.";
 
-export const collabContent = [
+export const services = [
   {
     id: "0",
     title: "Total Site Project Management",
@@ -259,7 +213,7 @@ export const collabContent = [
   },
 ];
 
-export const collabApps = [
+export const servicesApps = [
   {
     id: "0",
     title: "Figma",
@@ -338,103 +292,42 @@ export const team = [
     lnlink: "https://www.linkedin.com/in/christine-huynh-2282aa53/",
   },
   {
-    id: "4",
+    id: "3",
     name: "Joseph Tuma",
     imageUrl: josephtuma,
     lnlink: "https://www.linkedin.com/in/joseph-tuma-3b56451a/",
   },
   {
-    id: "6",
+    id: "4",
     name: "Sam Bowman",
     imageUrl: sambowman,
     lnlink: "https://www.linkedin.com/in/sam-bowman-marketing27/",
   },
   {
-    id: "6",
+    id: "5",
     name: "Fernando Oyarzun",
     imageUrl: fernandooyarzun,
     lnlink: "https://www.linkedin.com/in/fernando-oyarzun-8a02685/",
   },
   {
-    id: "3",
+    id: "6",
     name: "Glen Shiell",
     imageUrl: glenshiell,
     lnlink: "https://www.linkedin.com/in/gshiell/",
   },
   {
-    id: "5",
+    id: "7",
     name: "Paula Sylvia",
     imageUrl: paulasylvia,
     lnlink: "https://www.linkedin.com/in/paula-sylvia-91002364/",
   },
   {
-    id: "6",
-    name: "Gopinath Nagaraj",
-    imageUrl: gopinathnagaraj,
-    lnlink: "https://www.linkedin.com/in/gopinath-nagaraj-0467b211/",
-  },
-  {
-    id: "6",
+    id: "8",
     name: "Fuz Rahman",
     imageUrl: fuzrahman,
     lnlink: "https://www.linkedin.com/in/fuz-rahman-42638920/",
   },
 ];
-
-// export const benefits = [
-//   {
-//     id: "0",
-//     title: "xxx",
-//     text: "xxx",
-//     backgroundUrl: benefitCard1,
-//     iconUrl: benefitIcon1,
-//     imageUrl: benefitImage2,
-//     light: true,
-//     url: "#hero",
-//   },
-//   {
-//     id: "1",
-//     title: "xxxTotal Site Project Managementxxx",
-//     text: "xxxAquaculture Development Project Management, Veterinary Services, Biosecurity and Health Managementxxx ",
-//     backgroundUrl: benefitCard2,
-//     iconUrl: benefitIcon2,
-//     imageUrl: checkingSalmon,
-//     light: true,
-//   },
-//   {
-//     id: "2",
-//     title: "xxxx",
-//     text: "xxxx",
-//     backgroundUrl: benefitCard3,
-//     iconUrl: benefitIcon3,
-//     imageUrl: benefitImage2,
-//   },
-//   {
-//     id: "3",
-//     title: "xxxx",
-//     text: "xxxxx",
-//     backgroundUrl: benefitCard4,
-//     iconUrl: benefitIcon4,
-//     imageUrl: benefitImage2,
-//     light: true,
-//   },
-//   {
-//     id: "4",
-//     title: "xxx",
-//     text: "xxx",
-//     backgroundUrl: benefitCard5,
-//     iconUrl: benefitIcon1,
-//     imageUrl: benefitImage2,
-//   },
-//   {
-//     id: "5",
-//     title: "xxxxxx",
-//     text: "xxxxx",
-//     backgroundUrl: benefitCard6,
-//     iconUrl: benefitIcon2,
-//     imageUrl: benefitImage2,
-//   },
-// ];
 
 export const socials = [
   {
@@ -448,16 +341,4 @@ export const socials = [
     title: "Contact",
     url: "contact",
   },
-  // {
-  //   id: "3",
-  //   title: "Telegram",
-  //   iconUrl: telegram,
-  //   url: "#",
-  // },
-  // {
-  //   id: "4",
-  //   title: "Facebook",
-  //   iconUrl: facebook,
-  //   url: "#",
-  // },
 ];

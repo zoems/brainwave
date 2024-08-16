@@ -43,15 +43,6 @@ import service3 from "./services/service-3.png";
 import lines from "./pricing/lines.svg";
 import stars from "./pricing/stars.svg";
 
-// import coins from "./roadmap/coins.png";
-// import done from "./roadmap/done.svg";
-// import hero from "./roadmap/hero.png";
-// import roadmap1 from "./roadmap/image-1.png";
-// import roadmap2 from "./roadmap/image-2.png";
-// import roadmap3 from "./roadmap/image-3.png";
-// import roadmap4 from "./roadmap/image-4.png";
-// import undone from "./roadmap/undone.svg";
-
 import notification1 from "./notification/image-1.png";
 import notification2 from "./notification/image-2.png";
 import notification3 from "./notification/image-3.png";
@@ -78,7 +69,7 @@ import twitter from "./socials/twitter.svg";
 import aquatec from "./partners/ace-aquatec.png";
 import aquatiq from "./partners/aquatiq-logo.png";
 import calkins from "./partners/calkins-burke.jpg";
-import eachmile from "./partners/eachmile.jpg";
+
 import mtcook from "./partners/mtcook-alpine.jpg";
 import naqua from "./partners/naqua.jpeg";
 import nutreco from "./partners/nutreco.jpg";
@@ -186,7 +177,6 @@ export {
   aquatec,
   aquatiq,
   calkins,
-  eachmile,
   mtcook,
   naqua,
   nutreco,
