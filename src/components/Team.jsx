@@ -2,14 +2,12 @@ import { team } from "../constants";
 import Heading from "./Heading";
 import Section from "./Section";
 import Arrow from "../assets/svg/Arrow";
-import { GradientLight } from "./design/Benefits";
 import { heroBackground } from "../assets";
 import { useState } from "react";
 import Button from "./Button";
 
 const Team = () => {
   const [openTeam, setOpenTeam] = useState(false);
-  console.log(openTeam);
 
   const toggleteam = () => {
     if (openTeam) {
@@ -59,8 +57,6 @@ const Team = () => {
                   <Arrow />
                 </div>
               </div>
-
-              {item.light && <GradientLight />}
 
               <div className="absolute inset-0.5 transition-opacity group-hover:opacity-30">
                 <div className="absolute object-cover inset-0 ">
