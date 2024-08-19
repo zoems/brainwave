@@ -10,8 +10,6 @@ import { useState } from "react";
 
 const Header = () => {
   const pathname = useLocation();
-  console.log(pathname);
-  console.log(navigation[1].url);
 
   const [openNavigation, setOpenNavigation] = useState(false);
 

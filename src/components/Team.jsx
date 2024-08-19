@@ -11,21 +11,10 @@ const Team = () => {
   const [openTeam, setOpenTeam] = useState(false);
   console.log(openTeam);
 
-  const onClick = (url) => {
-    if (!url) {
-      return;
-    }
-    console.log("clicked");
-    window.location.href = url;
-  };
-
   const toggleteam = () => {
-    console.log("toggle team");
     if (openTeam) {
-      console.log("team was open");
       setOpenTeam(false);
     } else {
-      console.log("team was closed");
       setOpenTeam(true);
     }
   };
@@ -54,18 +43,19 @@ const Team = () => {
               className="block relative p-0.5 bg-no-repeat md:max-w-[24rem] group"
               key={item.id}
             >
-              <div className="relative z-2 flex flex-col justify-end min-h-[16rem] min-w-[15rem] p-[1.4rem] pointer-events-none">
+              <div className="relative z-2 flex flex-col justify-end min-h-[16rem] min-w-[15rem] p-[1.4rem]">
                 <div>
                   <h5 className=" text-sm md:text-xl">{item.name}</h5>
                 </div>
-                <div className="hidden group-hover:flex pointer-events-auto items-center mt-5 ">
-                  <button
+                <div className="hidden group-hover:flex items-center mt-5 ">
+                  <a
                     href={item.lnlink}
-                    onClick={() => onClick(item.lnlink)}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className=" ml-auto font-code text-xs font-bold text-n-1 hover:text-color-1 uppercase tracking-wider"
                   >
                     Linked In
-                  </button>
+                  </a>
                   <Arrow />
                 </div>
               </div>
