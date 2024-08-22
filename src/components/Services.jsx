@@ -35,7 +35,9 @@ const Services = () => {
           <Button onClick={() => setOpenModal(true)}>
             Book a Call With Us
           </Button>
-          <Calendly show={openModal} onClose={() => setOpenModal(false)} />
+          {openModal && (
+            <Calendly show={openModal} onClose={() => setOpenModal(false)} />
+          )}
         </div>
 
         <div className="lg:ml-auto xl:w-[38rem] mt-10">
