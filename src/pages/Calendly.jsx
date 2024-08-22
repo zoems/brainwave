@@ -15,8 +15,8 @@ const Calendly = ({ show, onClose }) => {
   if (!show) return null;
 
   return (
-    <div className="z-10 fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center">
-      <div className="bg-n-8 p-6 rounded shadow-lg max-w-md w-full">
+    <div className="z-10 fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center mt-20">
+      <div className="bg-n-8 p-6 rounded shadow-lg ">
         <h2 className="h2 mb-4">Smartaqua Intro Call with Alastair Smart</h2>
         <p className="mb-4">Schedule a Call</p>
         {renderModal && (
