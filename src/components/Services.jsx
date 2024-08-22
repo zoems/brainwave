@@ -1,10 +1,14 @@
 import { check, globelogo } from "../assets";
 import { servicesApps, services, servicesText } from "../constants";
+import Calendly from "../pages/Calendly";
 import Button from "./Button";
 import Section from "./Section";
 import { LeftCurve, RightCurve } from "./design/Services";
+import { useState } from "react";
 
 const Services = () => {
+  const [openModal, setOpenModal] = useState(false);
+
   return (
     <Section id="services" crosses>
       <div className="container lg:flex">
@@ -28,7 +32,12 @@ const Services = () => {
             ))}
           </ul>
 
-          <Button>Book a Call With Us</Button>
+          <Button onClick={() => setOpenModal(true)}>
+            Book a Call With Us
+          </Button>
+          {openModal && (
+            <Calendly show={openModal} onClose={() => setOpenModal(false)} />
+          )}
         </div>
 
         <div className="lg:ml-auto xl:w-[38rem] mt-10">
