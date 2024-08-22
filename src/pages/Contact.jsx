@@ -77,7 +77,13 @@ const Contact = () => {
   return (
     <>
       <Header />
-      <Section>
+      <Section
+        className="pt-[12rem] pb-[5.25rem] "
+        crosses
+        crossesOffset="lg:translate-y-[5.25rem]"
+        customPaddings
+        id="contact"
+      >
         <div className="container flex lg:flex-row flex-col ">
           {alert.show && <Alert {...alert} />}
           <div className="min-w-[32rem]">
@@ -89,7 +95,7 @@ const Contact = () => {
                   type="text"
                   name="name"
                   className="input text-n-4 rounded-lg p-3"
-                  placeholder="John"
+                  placeholder="Ali"
                   required
                   value={form.name}
                   onChange={handleChange}
@@ -103,7 +109,7 @@ const Contact = () => {
                   type="email"
                   name="email"
                   className="input text-n-4 rounded-lg p-3"
-                  placeholder="Jdoe@email.com"
+                  placeholder="ali@email.com"
                   required
                   value={form.email}
                   onChange={handleChange}
@@ -117,7 +123,7 @@ const Contact = () => {
                   name="message"
                   rows={4}
                   className="textarea text-n-4 rounded-lg p-3"
-                  placeholder="Let me know how I can help you!"
+                  placeholder="Let me know how I can help you."
                   required
                   value={form.message}
                   onChange={handleChange}

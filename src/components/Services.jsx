@@ -2,7 +2,7 @@ import { check, globelogo } from "../assets";
 import { servicesApps, services, servicesText } from "../constants";
 import Button from "./Button";
 import Section from "./Section";
-import { LeftCurve, RightCurve } from "./design/Collaboration";
+import { LeftCurve, RightCurve } from "./design/Services";
 
 const Services = () => {
   return (

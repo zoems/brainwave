@@ -40,9 +40,6 @@ import service1 from "./services/service-1.png";
 import service2 from "./services/service-2.jpeg";
 import service3 from "./services/service-3.png";
 
-import lines from "./pricing/lines.svg";
-import stars from "./pricing/stars.svg";
-
 import notification1 from "./notification/image-1.png";
 import notification2 from "./notification/image-2.png";
 import notification3 from "./notification/image-3.png";
@@ -229,8 +226,6 @@ export {
   service1,
   service2,
   service3,
-  lines,
-  stars,
   // coins,
   // done,
   // hero,
@@ -239,20 +234,20 @@ export {
   // roadmap3,
   // roadmap4,
   // undone,
-  notification1,
-  notification2,
-  notification3,
-  notification4,
-  benefitCard1,
-  benefitCard2,
-  benefitCard3,
-  benefitCard4,
-  benefitCard5,
-  benefitCard6,
-  benefitIcon1,
-  benefitIcon2,
-  benefitIcon3,
-  benefitIcon4,
+  // notification1,
+  // notification2,
+  // notification3,
+  // notification4,
+  // benefitCard1,
+  // benefitCard2,
+  // benefitCard3,
+  // benefitCard4,
+  // benefitCard5,
+  // benefitCard6,
+  // benefitIcon1,
+  // benefitIcon2,
+  // benefitIcon3,
+  // benefitIcon4,
   benefitImage2,
   discordBlack,
   facebook,
