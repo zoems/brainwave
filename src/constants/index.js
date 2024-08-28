@@ -155,11 +155,11 @@ export const about = [
     id: "0",
     title: "Farmed halibut, Sgioport, Western Isles, Scotland",
     img: alastair,
-    colorful: true,
   },
   {
     id: "1",
     title: "Seafood is one of the largest industries on the planet",
+    colorful: true,
   },
   {
     id: "2",
