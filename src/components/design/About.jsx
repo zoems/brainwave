@@ -1,21 +1,4 @@
-import { gradient } from "../../assets";
 import brackets from "../../assets/svg/Brackets";
-
-export const Gradient = () => {
-  return (
-    <div className="absolute top-[18.25rem] -left-[30.375rem] w-[56.625rem] opacity-60 mix-blend-color-dodge pointer-events-none">
-      <div className="absolute top-1/2 left-1/2 w-[58.85rem] h-[58.85rem] -translate-x-3/4 -translate-y-1/2">
-        <img
-          className="w-full"
-          src={gradient}
-          width={942}
-          height={942}
-          alt="Gradient"
-        />
-      </div>
-    </div>
-  );
-};
 
 export const TagLine = ({ className, children }) => {
   return (
@@ -27,4 +10,17 @@ export const TagLine = ({ className, children }) => {
   );
 };
 
-export default TagLine;
+export const Facts = ({ facts, title }) => {
+  return (
+    <div className="flex flex-col flex-grow">
+      <h2 className="h3 mb-4">{title}</h2>
+      <div className="flex flex-col justify-between flex-grow">
+        {facts.map((fact, index) => (
+          <p key={index} className="pb-4 pt-15">
+            {fact}
+          </p>
+        ))}
+      </div>
+    </div>
+  );
+};

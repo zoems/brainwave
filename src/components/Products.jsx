@@ -2,7 +2,7 @@ import Section from "./Section";
 import Heading from "./Heading";
 import { service1, service3, check } from "../assets";
 import { deepChillPoints } from "../constants";
-import { Gradient, LeftMessage } from "./design/Products";
+import { LeftMessage } from "./design/Products";
 import Arrow from "../assets/svg/Arrow";
 
 const Products = () => {
@@ -122,8 +122,6 @@ const Products = () => {
                 </div>
               </div>
             </div>
-
-            <Gradient />
           </div>
         </div>
       </Section>

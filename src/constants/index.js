@@ -143,42 +143,40 @@ export const deepChillPoints = [
   "Extended shelf life",
 ];
 
+export const facts = [
+  "90% of our seafood comes from millions of small scale producers in developing nations.",
+  "90% growth in consumption – people are eating more seafood than ever. In the past 50 years global per capita consumption has nearly doubled.",
+  "12% of global livelihoods – 1 out of every 10 people on the planet derive their income from seafood and aquaculture.",
+  "$150 billion in annual export value – export value doesn’t include retail, or domestic production so full estimates of the industry size are upwards of $500 billion USD. Full retail estimates are close to USD$1 trillion",
+];
+
 export const about = [
   {
     id: "0",
     title: "Farmed halibut, Sgioport, Western Isles, Scotland",
-    text: "SmartAqua was first established in 1996 by Alastair Smart to offer seafood consulting services chiefly to the fast growing aquaculture industry. After some years working in many countries he saw a number of colleagues offering the same service and the concept of a Team offering a one-stop-shop for seafood advice not limited by scope or geography was formed and the group expanded globally.",
-    imageUrl: alastair,
-    colorful: true,
+    img: alastair,
   },
   {
     id: "1",
     title: "Seafood is one of the largest industries on the planet",
-    imageUrl: castnet,
-    list: [
-      "12% of global livelihoods – 1 out of every 10 people on the planet derive their income from seafood and aquaculture. 90% of our seafood comes from millions of small scale producers in developing nations.",
-      "90% growth in consumption – people are eating more seafood than ever. In the past 50 years global per capita consumption has nearly doubled.",
-      "$150 billion in annual export value – export value doesn’t include retail, or domestic production so full estimates of the industry size are upwards of $500 billion USD. Full retail estimates are close to USD$1 trillion",
-    ],
+    colorful: true,
   },
   {
     id: "2",
     title: "Puerto Montt Salmon",
-    text: "Sea grown rainbow trout and mussels growing together",
+    // text: "Sea grown rainbow trout and mussels growing together",
     // date: "May 2023",
-    imageUrl: puertofarm,
+    img: puertofarm,
   },
   {
     id: "3",
-    title: "United Nations World Food Program",
-    text: "SmartAqua MD Alastair Smart at Seafood Storied Dinner with the United Nations World Food Program’s SDG2 Advocacy Hub’s Chefs of the Chefs Manifesto, Stockholm EAT Forum, Torsaker Farm.",
+    title: "United Nations World Food Program", // text: "SmartAqua MD Alastair Smart at Seafood Storied Dinner with the United Nations World Food Program’s SDG2 Advocacy Hub’s Chefs of the Chefs Manifesto, Stockholm EAT Forum, Torsaker Farm.",
     // date: "May 2023",
-    imageUrl: torsaker,
+    img: torsaker,
   },
 ];
 
-export const servicesText =
-  "SmartAqua was first established in 1996 by Alastair Smart to offer seafood consulting services chiefly to the fast growing aquaculture industry. After some years working in many countries he saw a number of colleagues offering the same service and the concept of a Team offering a one-stop-shop for seafood advice not limited by scope or geography was formed and the group expanded globally.";
+export const servicesText = "";
 
 export const services = [
   {
