@@ -11,13 +11,16 @@ export const TagLine = ({ className, children }) => {
 };
 
 export const Facts = ({ facts, title }) => {
-  console.log(facts);
   return (
-    <div>
-      <h2 className="h3">{title}</h2>
-      {facts.map((fact, index) => (
-        <p key={index}>{fact}</p>
-      ))}
+    <div className="flex flex-col flex-grow">
+      <h2 className="h3 mb-4">{title}</h2>
+      <div className="flex flex-col justify-between flex-grow">
+        {facts.map((fact, index) => (
+          <p key={index} className="pb-4 pt-15">
+            {fact}
+          </p>
+        ))}
+      </div>
     </div>
   );
 };

@@ -26,7 +26,7 @@ const About = () => (
                   {item.img ? (
                     <div className="mb-10 -my-10 -mx-15">
                       <img
-                        className="w-full h-full"
+                        className="w-full h-min"
                         src={item.img}
                         width={628}
                         height={426}
@@ -37,7 +37,7 @@ const About = () => (
                     <Facts title={item.title} facts={facts} />
                   )}
 
-                  <p className="body-2 text-n-3">{item.title}</p>
+                  {item.img && <p className="body-2 text-n-3">{item.title}</p>}
                   {item.text && <p className="body-2 text-n-2">{item.text}</p>}
                 </div>
               </div>
