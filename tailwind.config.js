@@ -18,6 +18,10 @@ export default {
           4: "#7ADB78",
           5: "#858DFF",
           6: "#FF98E2",
+          7: "#FF5722", // orange
+          8: "#022550", // navy
+          9: "#03A9F4", // Smartaqua blue
+          10: "#79FFF7", // turquoise
         },
         stroke: {
           1: "#26242C",

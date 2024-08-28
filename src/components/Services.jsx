@@ -1,3 +1,4 @@
+import { disablePageScroll, enablePageScroll } from "scroll-lock";
 import { check, globelogo } from "../assets";
 import { servicesApps, services, servicesText } from "../constants";
 import Calendly from "../pages/Calendly";
@@ -8,6 +9,16 @@ import { useState } from "react";
 
 const Services = () => {
   const [openModal, setOpenModal] = useState(false);
+
+  const handleOpen = () => {
+    setOpenModal(true);
+    disablePageScroll();
+  };
+
+  const handleClose = () => {
+    setOpenModal(false);
+    enablePageScroll();
+  };
 
   return (
     <Section id="services" crosses>
@@ -32,12 +43,8 @@ const Services = () => {
             ))}
           </ul>
 
-          <Button onClick={() => setOpenModal(true)}>
-            Book a Call With Us
-          </Button>
-          {openModal && (
-            <Calendly show={openModal} onClose={() => setOpenModal(false)} />
-          )}
+          <Button onClick={handleOpen}>Book a Call With Us</Button>
+          {openModal && <Calendly show={openModal} onClose={handleClose} />}
         </div>
 
         <div className="lg:ml-auto xl:w-[38rem] mt-10">
