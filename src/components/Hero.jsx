@@ -13,7 +13,7 @@ const Hero = () => {
 
   return (
     <Section
-      className="pt-[12rem] -mt-[5.25rem] "
+      className="py-[12rem] -my-[5.25rem] "
       crosses
       crossesOffset="lg:translate-y-[5.25rem]"
       customPaddings
@@ -95,7 +95,7 @@ const Hero = () => {
         <CompanyLogos />
       </div>
 
-      <BottomLine />
+      {/* <BottomLine /> */}
     </Section>
   );
 };
