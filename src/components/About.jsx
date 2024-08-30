@@ -16,12 +16,14 @@ const About = () => (
         {about.map((item) => {
           return (
             <div
-              className={`md:flex p-0.25  ${
-                item.colorful ? "bg-conic-gradient" : "border border-n-6"
+              className={`md:flex  ${
+                item.colorful
+                  ? "p-[0.0625rem] bg-conic-gradient rounded-3xl"
+                  : "border border-n-1/10 rounded-3xl"
               }`}
               key={item.id}
             >
-              <div className="relative p-3 bg-n-8 overflow-hidden xl:p-15">
+              <div className="relative p-3 bg-n-7 rounded-3xl overflow-hidden xl:p-15">
                 <div className="relative z-1">
                   {item.img ? (
                     <div className="mb-10 -my-10 -mx-15">
