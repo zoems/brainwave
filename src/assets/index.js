@@ -39,21 +39,21 @@ import service1 from "./services/service-1.png";
 import service2 from "./services/service-2.jpeg";
 import service3 from "./services/service-3.png";
 
-import notification1 from "./notification/image-1.png";
-import notification2 from "./notification/image-2.png";
-import notification3 from "./notification/image-3.png";
-import notification4 from "./notification/image-4.png";
+// import notification1 from "./notification/image-1.png";
+// import notification2 from "./notification/image-2.png";
+// import notification3 from "./notification/image-3.png";
+// import notification4 from "./notification/image-4.png";
 
-import benefitCard1 from "./benefits/card-1.svg";
-import benefitCard2 from "./benefits/card-2.svg";
-import benefitCard3 from "./benefits/card-3.svg";
-import benefitCard4 from "./benefits/card-4.svg";
-import benefitCard5 from "./benefits/card-5.svg";
-import benefitCard6 from "./benefits/card-6.svg";
-import benefitIcon1 from "./benefits/icon-1.svg";
-import benefitIcon2 from "./benefits/icon-2.svg";
-import benefitIcon3 from "./benefits/icon-3.svg";
-import benefitIcon4 from "./benefits/icon-4.svg";
+// import benefitCard1 from "./benefits/card-1.svg";
+// import benefitCard2 from "./benefits/card-2.svg";
+// import benefitCard3 from "./benefits/card-3.svg";
+// import benefitCard4 from "./benefits/card-4.svg";
+// import benefitCard5 from "./benefits/card-5.svg";
+// import benefitCard6 from "./benefits/card-6.svg";
+// import benefitIcon1 from "./benefits/icon-1.svg";
+// import benefitIcon2 from "./benefits/icon-2.svg";
+// import benefitIcon3 from "./benefits/icon-3.svg";
+// import benefitIcon4 from "./benefits/icon-4.svg";
 import benefitImage2 from "./benefits/image-2.png";
 
 import discordBlack from "./socials/discord.svg";
@@ -76,14 +76,14 @@ import solvay from "./partners/solvay.png";
 import veramaris from "./partners/veramaris.jpeg";
 import puresalmon from "./partners/pure-salmon.png";
 import barramundiasia from "./partners/barramundi-asia.png";
-import ssc from "./partners/ssc.png";
+import bakkafrost from "./partners/bakkafrost.png";
 import vda from "./partners/vda.jpeg";
 import ssf from "./partners/ssf.jpeg";
 import heats from "./partners/heats.png";
 import bom from "./partners/bom.jpg";
 import tassal from "./partners/tassal.png";
-import huon from "./partners/huon.jpeg";
-import marineharvest from "./partners/marineharvest.jpeg";
+import huon from "./partners/huon.png";
+import marineharvest from "./partners/marineharvest.png";
 import cleanseas from "./partners/cleanseas.png";
 import skretting from "./partners/skretting.png";
 import youngs from "./partners/youngs.jpg";
@@ -122,18 +122,17 @@ import torsaker from "./about/torsaker.jpg";
 import balifish from "./about/balifish.jpg";
 import alastair from "./about/alastair-mg.jpeg";
 import puertofarm from "./about/farm.jpg";
-import castnet from "./about/cast-net.png";
+// import castnet from "./about/cast-net.png";
 
 export {
   productsbg,
-  //---
+  //- About
   torsaker,
   balifish,
   alastair,
   puertofarm,
-  castnet,
-
-  //----
+  // castnet,
+  //- Icon
   linkedin,
   //-------- team
   alsmart,
@@ -149,7 +148,7 @@ export {
   // ---------- partners
   puresalmon,
   barramundiasia,
-  ssc,
+  bakkafrost,
   vda,
   ssf,
   heats,

@@ -1,15 +1,21 @@
 import {
-  castnet,
+  // - about
+  // castnet,
   torsaker,
   alastair,
   puertofarm,
+  // - icon
   linkedin,
+  // - team
   alastairdouglas,
   christinehuynh,
   glenshiell,
   josephtuma,
   paulasylvia,
   sambowman,
+  alsmart,
+  fernandooyarzun,
+  fuzrahman,
   ////////////
   discord,
   figma,
@@ -19,10 +25,9 @@ import {
   protopie,
   raindrop,
   slack,
-  ///////////
+  // - partners
   puresalmon,
   barramundiasia,
-  ssc,
   vda,
   ssf,
   heats,
@@ -54,9 +59,7 @@ import {
   paspaley,
   solvay,
   veramaris,
-  alsmart,
-  fernandooyarzun,
-  fuzrahman,
+  bakkafrost,
 } from "../assets";
 
 export const navigation = [
@@ -102,7 +105,7 @@ export const navigation = [
 export const companyLogos = [
   puresalmon,
   barramundiasia,
-  ssc,
+  bakkafrost,
   vda,
   ssf,
   heats,
