@@ -84,7 +84,7 @@ const Contact = () => {
         customPaddings
         id="contact"
       >
-        <div className="container flex lg:flex-row flex-col ">
+        <div className="container relative flex lg:flex-row flex-col ">
           {alert.show && <Alert {...alert} />}
           <div className="min-w-[32rem]">
             <h1 className="h1">Get In Touch</h1>
@@ -141,7 +141,7 @@ const Contact = () => {
               </Button>
             </form>
           </div>
-          <div className="absolute -z-1 1 w-full h-full bg-radial-gradient from-[#0E3B8F] to-[#28206C]/0 to-70% pointer-events-none">
+          <div className="absolute inset-0 -z-1 bg-radial-gradient from-[#0E3B8F] to-[#28206C]/0 to-70% pointer-events-none">
             {" "}
             <Canvas
               camera={{
