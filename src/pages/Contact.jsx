@@ -141,7 +141,7 @@ const Contact = () => {
               </Button>
             </form>
           </div>
-          <div className="lg:w-1/2 w-full lg:h-auto md:h-[550px] h-[350px] bg-radial-gradient from-[#0E3B8F] to-[#28206C]/0 to-70% pointer-events-none">
+          <div className="absolute -z-1 1 w-full h-full bg-radial-gradient from-[#0E3B8F] to-[#28206C]/0 to-70% pointer-events-none">
             {" "}
             <Canvas
               camera={{
@@ -164,6 +164,7 @@ const Contact = () => {
               </Suspense>
             </Canvas>
           </div>
+          <div></div>
         </div>
       </Section>
       <Footer />
