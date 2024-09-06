@@ -149,7 +149,11 @@ const Contact = () => {
                 </Button>
               </form>
             </div>
-            <Calendly isModal={false} className={"flex-1"} noHeading />
+            <Calendly
+              isModal={false}
+              className={"flex-1 max-w-600px "}
+              noHeading
+            />
             <div className="absolute inset-0 top-20 -z-1 bg-radial-gradient from-[#0E3B8F] to-[#28206C]/0 to-70% pointer-events-none">
               {" "}
               <Canvas
