@@ -1,36 +1,37 @@
 import { InlineWidget } from "react-calendly";
-import { useEffect, useState } from "react";
 
 import Button from "../components/Button";
 import Loader from "../components/design/Loader";
 
-const Calendly = ({ show, onClose }) => {
-  const [renderModal, setRenderModal] = useState(false);
+const Calendly = ({ show, onClose, isModal, className, noHeading }) => {
+  if (isModal && !show) return null;
 
-  useEffect(() => {
-    if (show) {
-      setRenderModal(true);
-    }
-  }, [show]);
+  const containerClass = isModal
+    ? "z-10 fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center mt-[5rem]"
+    : "";
 
-  if (!show) return null;
+  const contentClass = isModal ? "bg-n-8 p-8 rounded shadow-lg mt-9" : "";
+
+  const widgetClass = isModal ? "max-h-[22rem] mt-4" : "max-h-[490px]";
 
   return (
-    <div className="z-10 fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center mt-[5rem]">
-      <div className="bg-n-8 p-8 rounded shadow-lg mt-9">
-        <h2 className="h2 mb-4">Schedule a Call</h2>
-        <p className="mb-4">Smartaqua Intro Call with Alastair Smart</p>
-        <div className="max-h-[22rem] overflow-scroll">
-          {renderModal && (
-            <InlineWidget
-              url="https://calendly.com/al-smartaqua/smartaqua-intro-call-with-alastair-smart?hide_event_type_details=1&hide_gdpr_banner=1"
-              LoadingSpinner={Loader}
-            />
-          )}
+    <div className={`${containerClass} ${className}`}>
+      <div className={contentClass}>
+        <div className="">
+          {!noHeading && <h1 className="h1 mb-4">Schedule a Call</h1>}
+          <p className="h6">Smartaqua Intro Call with Alastair Smart</p>
         </div>
-        <Button className={"mt-3"} onClick={onClose}>
-          Close
-        </Button>
+        <div className={`${widgetClass} overflow-scroll`}>
+          <InlineWidget
+            url="https://calendly.com/al-smartaqua/smartaqua-intro-call-with-alastair-smart?hide_event_type_details=1&hide_gdpr_banner=1"
+            LoadingSpinner={Loader}
+          />
+        </div>
+        {isModal && (
+          <Button className={"mt-3"} onClick={onClose}>
+            Close
+          </Button>
+        )}
       </div>
     </div>
   );

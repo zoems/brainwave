@@ -11,6 +11,8 @@ import Header from "../components/Header";
 import Button from "../components/Button";
 import Footer from "../components/Footer";
 import ButtonGradient from "../assets/svg/ButtonGradient";
+import Calendly from "./Calendly";
+import Heading from "../components/Heading";
 
 // npm install @emailjs/browser
 
@@ -84,85 +86,93 @@ const Contact = () => {
         customPaddings
         id="contact"
       >
-        <div className="container flex lg:flex-row flex-col ">
-          {alert.show && <Alert {...alert} />}
-          <div className="min-w-[32rem]">
-            <h1 className="h1">Get In Touch</h1>
-            <form className="flex flex-col gap-7 mt-14" onSubmit={handleSubmit}>
-              <label className="flex flex-col h6">
-                Name
-                <input
-                  type="text"
-                  name="name"
-                  className="input text-n-4 rounded-lg p-3"
-                  placeholder="Ali"
-                  required
-                  value={form.name}
-                  onChange={handleChange}
-                  onFocus={handleFocus}
-                  onBlur={handleBlur}
-                />
-              </label>
-              <label className="h6 flex flex-col">
-                Email
-                <input
-                  type="email"
-                  name="email"
-                  className="input text-n-4 rounded-lg p-3"
-                  placeholder="ali@email.com"
-                  required
-                  value={form.email}
-                  onChange={handleChange}
-                  onFocus={handleFocus}
-                  onBlur={handleBlur}
-                />
-              </label>
-              <label className="h6 flex flex-col">
-                Your Message
-                <textarea
-                  name="message"
-                  rows={4}
-                  className="textarea text-n-4 rounded-lg p-3"
-                  placeholder="Let me know how I can help you."
-                  required
-                  value={form.message}
-                  onChange={handleChange}
-                  onFocus={handleFocus}
-                  onBlur={handleBlur}
-                />
-              </label>
-              <Button
-                type="submit"
-                disabled={isLoading}
-                onFocus={handleBlur}
-                onBlur={handleBlur}
-              >
-                {isLoading ? "Sending..." : "Send Message"}
-              </Button>
-            </form>
+        <div className="container relative">
+          <div className="">
+            <h2 className="h2">Get In Touch</h2>
+            <p className="body-2 mt-4 text-n-4">
+              Send an email or schedule a call with us
+            </p>
           </div>
-          <div className="lg:w-1/2 w-full lg:h-auto md:h-[550px] h-[350px] bg-radial-gradient from-[#0E3B8F] to-[#28206C]/0 to-70% pointer-events-none">
-            {" "}
-            <Canvas
-              camera={{
-                position: [1, 0, 0],
-                fov: 75, //feel of view
-                near: 0.1,
-                far: 1000,
-              }}
-            >
-              <directionalLight intensity={2.5} position={[0, 0, 1]} />
-              <ambientLight intensity={1} />
-              <pointLight position={[5, 10, 0]} intensity={2} />
-              <Suspense fallback={<Loader />}>
-                <Fishes
-                  currentAnimation={currentAnimation}
-                  position={[0.5, -1, 0]}
-                  rotation={[12.6, -0.6, 0]}
-                  scale={[2, 2, 2]}
-                />
-              </Suspense>
-            </Canvas>
+          <div className=" mt-12 flex lg:flex-row flex-col gap-7 justify-center ">
+            {alert.show && <Alert {...alert} />}
+            <div className="min-w-[32rem] flex-1">
+              <form className="flex flex-col gap-10" onSubmit={handleSubmit}>
+                <label className="flex flex-col h6">
+                  Name
+                  <input
+                    type="text"
+                    name="name"
+                    className="input text-n-4 rounded-lg p-3"
+                    placeholder="Ali"
+                    required
+                    value={form.name}
+                    onChange={handleChange}
+                    onFocus={handleFocus}
+                    onBlur={handleBlur}
+                  />
+                </label>
+                <label className="h6 flex flex-col">
+                  Email
+                  <input
+                    type="email"
+                    name="email"
+                    className="input text-n-4 rounded-lg p-3"
+                    placeholder="ali@email.com"
+                    required
+                    value={form.email}
+                    onChange={handleChange}
+                    onFocus={handleFocus}
+                    onBlur={handleBlur}
+                  />
+                </label>
+                <label className="h6 flex flex-col">
+                  Your Message
+                  <textarea
+                    name="message"
+                    rows={4}
+                    className="textarea text-n-4 rounded-lg p-3"
+                    placeholder="Let me know how I can help you."
+                    required
+                    value={form.message}
+                    onChange={handleChange}
+                    onFocus={handleFocus}
+                    onBlur={handleBlur}
+                  />
+                </label>
+                <Button
+                  type="submit"
+                  disabled={isLoading}
+                  onFocus={handleBlur}
+                  onBlur={handleBlur}
+                >
+                  {isLoading ? "Sending..." : "Send Message"}
+                </Button>
+              </form>
+            </div>
+            <Calendly isModal={false} className={"flex-1"} noHeading />
+            <div className="absolute inset-0 top-20 -z-1 bg-radial-gradient from-[#0E3B8F] to-[#28206C]/0 to-70% pointer-events-none">
+              {" "}
+              <Canvas
+                camera={{
+                  position: [1, 0, 0],
+                  fov: 75, //feel of view
+                  near: 0.1,
+                  far: 1000,
+                }}
+              >
+                <directionalLight intensity={2.5} position={[0, 0, 1]} />
+                <ambientLight intensity={1} />
+                <pointLight position={[5, 10, 0]} intensity={2} />
+                <Suspense fallback={<Loader />}>
+                  <Fishes
+                    currentAnimation={currentAnimation}
+                    position={[0.5, -1, 0]}
+                    rotation={[12.6, -0.6, 0]}
+                    scale={[2, 2, 2]}
+                  />
+                </Suspense>
+              </Canvas>
+            </div>
           </div>
         </div>
       </Section>
