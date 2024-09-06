@@ -93,7 +93,7 @@ const Contact = () => {
               Send an email or schedule a call with us
             </p>
           </div>
-          <div className=" mt-12 flex lg:flex-row flex-col gap-7 justify-center ">
+          <div className=" mt-12 flex lg:flex-row flex-col gap-20 justify-center ">
             {alert.show && <Alert {...alert} />}
             <div className="min-w-[32rem] flex-1">
               <form className="flex flex-col gap-10" onSubmit={handleSubmit}>
@@ -149,7 +149,11 @@ const Contact = () => {
                 </Button>
               </form>
             </div>
-            <Calendly isModal={false} className={"flex-1"} noHeading />
+            <Calendly
+              isModal={false}
+              className={"flex-1 max-w-600px "}
+              noHeading
+            />
             <div className="absolute inset-0 top-20 -z-1 bg-radial-gradient from-[#0E3B8F] to-[#28206C]/0 to-70% pointer-events-none">
               {" "}
               <Canvas
