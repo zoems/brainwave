@@ -93,7 +93,7 @@ const Contact = () => {
               Send an email or schedule a call with us
             </p>
           </div>
-          <div className=" mt-12 flex lg:flex-row flex-col gap-7 justify-center ">
+          <div className=" mt-12 flex lg:flex-row flex-col gap-20 justify-center ">
             {alert.show && <Alert {...alert} />}
             <div className="min-w-[32rem] flex-1">
               <form className="flex flex-col gap-10" onSubmit={handleSubmit}>
