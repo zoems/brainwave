@@ -12,7 +12,7 @@ const About = () => (
         title="We Go There"
         text="SmartAqua was first established in 1996 by Alastair Smart to offer seafood consulting services chiefly to the fast growing aquaculture industry. After some years working in many countries he saw a number of colleagues offering the same service and the concept of a Team offering a one-stop-shop for seafood advice not limited by scope or geography was formed and the group expanded globally."
       />
-      <div className="relative grid gap-6 md:grid-cols-2 md:gap-4 md:pb-[7rem]">
+      <div className="relative grid gap-6 md:grid-cols-2 md:gap-4">
         {about.map((item) => {
           return (
             <div
