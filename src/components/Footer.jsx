@@ -14,10 +14,9 @@ const Footer = () => {
             <li key={item.id}>
               <a
                 href={item.url}
-                target="_blank"
+                target={item.notarget ? "_self" : "_blank"}
                 className="flex items-center justify-center w-30 h-30 px-6 bg-n-7 rounded-full transition-colors hover:bg-n-6"
               >
-                {" "}
                 {item.iconUrl && (
                   <img
                     src={item.iconUrl}
@@ -26,7 +25,7 @@ const Footer = () => {
                     aria-hidden="true"
                   />
                 )}
-                <p className="p-2 text-xs text-n-3 ">{item.title}</p>
+                <p className="p-2 text-xs text-n-3">{item.title}</p>
               </a>
             </li>
           ))}

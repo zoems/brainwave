@@ -341,5 +341,6 @@ export const socials = [
     id: "2",
     title: "Contact",
     url: "contact",
+    notarget: true,
   },
 ];
