@@ -24,14 +24,14 @@ const Products = () => {
                 <img
                   className="w-full h-full object-cover md:object-right"
                   width={800}
-                  alt=""
+                  alt="deepchil slurry"
                   height={730}
                   src={service1}
                 />
               </div>
 
               <div className="relative z-1 max-w-[17rem] ml-auto ">
-                <h4 className="h4 mb-4">DeepChill</h4>
+                <h3 className="h3 mb-4">DeepChill</h3>
                 <p className="body-2 mb-[3rem] text-n-3">
                   Deepchill® is like no other ice technology. It comprises of
                   tiny pearl-like micro-crystals generated in sea, or fresh
@@ -44,7 +44,12 @@ const Products = () => {
                       key={index}
                       className="flex items-start py-4 border-t bg-n-7 border-n-6"
                     >
-                      <img width={24} height={24} src={check} />
+                      <img
+                        width={24}
+                        height={24}
+                        src={check}
+                        aria-hidden="true"
+                      />
                       <p className="ml-4">{item}</p>
                     </li>
                   ))}
