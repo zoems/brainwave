@@ -69,6 +69,7 @@ const Header = () => {
           className="ml-auto lg:hidden"
           px="px-3"
           onClick={toggleNavigation}
+          ariaLabel={"Navigation Button"}
         >
           <MenuSvg openNavigation={openNavigation} />
         </Button>

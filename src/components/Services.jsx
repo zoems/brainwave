@@ -68,7 +68,7 @@ const Services = () => {
               </div>
             </div>
 
-            <ul>
+            <ul aria-hidden="true">
               {servicesApps.map((app, index) => (
                 <li
                   key={app.id}

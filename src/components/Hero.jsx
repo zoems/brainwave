@@ -40,7 +40,7 @@ const Hero = () => {
             venture capital and private equity firms, governments, researchers
             and non-government organisations.”
           </p>
-          <Button href="/contact" white>
+          <Button href="/contact" ariaLabel="go to contact page" white>
             Get in touch
           </Button>
         </div>
