@@ -54,7 +54,7 @@ const Services = () => {
             {servicesText}
           </p>
 
-          <div className="relative left-1/2 flex w-[37rem] aspect-square border border-n-6 rounded-full -translate-x-1/2 scale-[50%] md:scale-100">
+          <div className="relative top-[8%] left-1/2 flex w-[37rem] aspect-square border border-n-6 rounded-full -translate-x-1/2 scale-[50%] md:scale-100">
             <div className="flex w-80 p-[0.2rem] aspect-square m-auto bg-conic-gradient rounded-full">
               <div className="w-[22rem] aspect-square m-auto rounded-full">
                 <div className="flex items-center justify-center w-full h-full bg-n-8 rounded-full">
