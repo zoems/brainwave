@@ -12,13 +12,13 @@
 
 ## <a name="features">Features</a>
 
-👉 **Beautiful Sections**: Includes hero, services, features, how to use, roadmap, pricing, footer, and header.
+👉 **Beautiful Sections**: Includes hero, services, team, products, about us footer, and contact page and header.
 
 👉 **Parallax and 3D Animations**: Engaging effects triggered by mouse movement and scrolling with ThreeJS.
 
 👉 **Email and Calendly**: Custom Embed of Calendly + EmailJS API functionality.
 
-👉 **Latest UI Trends**: Incorporates modern design elements such as bento grids.
+👉 **Latest UI Trends**: Incorporates modern design elements such as bento grids and call to actions.
 
 👉 **Cool Gradients**: Enhances visuals with stylish gradients using Tailwind CSS for cards, buttons, etc.
 
